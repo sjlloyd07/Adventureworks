@@ -1,0 +1,239 @@
+emp_id,hourly_wage,department,months_of_service
+4,29.8462,Tool Design,72
+11,28.8462,Tool Design,36
+12,25,Tool Design,72
+13,25,Tool Design,36
+17,13.4615,Marketing,83
+18,14.4231,Marketing,34
+19,13.4615,Marketing,34
+20,13.4615,Marketing,35
+21,14.4231,Marketing,57
+22,14.4231,Marketing,60
+23,14.4231,Marketing,59
+24,14.4231,Marketing,59
+27,25,Production,70
+28,12.45,Production,90
+29,12.45,Production,59
+30,12.45,Production,59
+31,12.45,Production,59
+32,12.45,Production,60
+33,12.45,Production,60
+34,12.45,Production,58
+35,12.45,Production,58
+36,12.45,Production,58
+37,12.45,Production,57
+38,12.45,Production,47
+39,12.45,Production,46
+40,25,Production,72
+41,12.45,Production,59
+42,12.45,Production,60
+43,12.45,Production,59
+44,12.45,Production,60
+45,12.45,Production,58
+46,12.45,Production,58
+47,25,Production,58
+48,13.45,Production,71
+49,13.45,Production,71
+50,13.45,Production,70
+51,13.45,Production,70
+52,13.45,Production,69
+53,13.45,Production,69
+54,13.45,Production,48
+55,25,Production,70
+56,11,Production,58
+57,11,Production,58
+58,11,Production,60
+59,11,Production,60
+60,11,Production,59
+61,11,Production,59
+62,25,Production,69
+63,12.45,Production,47
+64,12.45,Production,46
+65,12.45,Production,46
+66,12.45,Production,48
+67,12.45,Production,57
+68,12.45,Production,48
+69,12.45,Production,58
+70,12.45,Production,60
+71,25,Production,58
+72,9.5,Production,61
+73,9.5,Production,60
+74,9.5,Production,59
+75,9.5,Production,59
+76,9.5,Production,58
+77,9.5,Production,57
+78,25,Production,60
+79,15,Production,47
+80,15,Production,47
+81,15,Production,48
+82,15,Production,45
+83,15,Production,46
+84,15,Production,46
+85,15,Production,48
+86,15,Production,59
+87,25,Production,60
+88,13.45,Production,48
+89,13.45,Production,47
+90,13.45,Production,46
+91,13.45,Production,47
+92,13.45,Production,45
+93,25,Production,60
+94,11,Production,60
+95,11,Production,60
+96,11,Production,57
+97,11,Production,58
+98,11,Production,58
+99,11,Production,59
+100,11,Production,59
+101,11,Production,59
+102,25,Production,60
+103,13.45,Production,48
+104,13.45,Production,48
+105,13.45,Production,48
+106,13.45,Production,46
+107,13.45,Production,46
+108,25,Production,60
+109,11,Production,60
+110,11,Production,60
+111,11,Production,60
+112,11,Production,60
+113,11,Production,60
+114,11,Production,59
+115,11,Production,59
+116,11,Production,59
+117,11,Production,58
+118,11,Production,58
+119,11,Production,58
+120,11,Production,57
+122,9,Shipping and Receiving,60
+123,9.5,Shipping and Receiving,60
+124,9,Shipping and Receiving,60
+125,9.5,Shipping and Receiving,59
+126,9,Shipping and Receiving,58
+127,25,Production,59
+128,15,Production,60
+129,15,Production,60
+130,15,Production,58
+131,15,Production,58
+132,15,Production,58
+133,15,Production,59
+134,25,Production,59
+135,14,Production,60
+136,14,Production,48
+137,14,Production,58
+138,14,Production,58
+139,14,Production,47
+140,14,Production,47
+141,14,Production,47
+142,14,Production,45
+143,14,Production,46
+144,14,Production,59
+145,25,Production,59
+146,9.5,Production,60
+147,9.5,Production,60
+148,9.5,Production,59
+149,9.5,Production,59
+150,9.5,Production,58
+151,9.5,Production,58
+152,25,Production,59
+153,14,Production,60
+154,14,Production,60
+155,14,Production,59
+156,14,Production,59
+157,14,Production,58
+158,14,Production,57
+159,14,Production,58
+160,25,Production,59
+161,10,Production,60
+162,10,Production,59
+163,10,Production,58
+164,10,Production,57
+165,10,Production,59
+166,25,Production,58
+167,9.5,Production,60
+168,9.5,Production,60
+169,9.5,Production,60
+170,9.5,Production,60
+171,9.5,Production,59
+172,9.5,Production,59
+173,9.5,Production,59
+174,9.5,Production,59
+175,9.5,Production,58
+176,9.5,Production,58
+177,9.5,Production,58
+178,9.5,Production,57
+179,9.5,Production,57
+180,25,Production,58
+181,14,Production,60
+182,14,Production,60
+183,14,Production,59
+184,14,Production,58
+185,14,Production,58
+186,25,Production,58
+187,10,Production,60
+188,10,Production,60
+189,10,Production,59
+190,10,Production,58
+191,10,Production,58
+192,25,Production,57
+193,15,Production,60
+194,15,Production,60
+195,15,Production,60
+196,15,Production,60
+197,15,Production,60
+198,15,Production,59
+199,15,Production,59
+200,15,Production,59
+201,15,Production,59
+202,15,Production,58
+203,15,Production,58
+204,15,Production,57
+205,25,Production,58
+206,10,Production,60
+207,10,Production,60
+208,10,Production,59
+209,10,Production,59
+210,10,Production,58
+213,10.5769,Quality Assurance,46
+214,10.5769,Quality Assurance,58
+215,10.5769,Quality Assurance,59
+216,10.5769,Quality Assurance,60
+217,17.7885,Document Control,59
+218,16.8269,Document Control,60
+219,10.25,Document Control,59
+220,10.25,Document Control,58
+221,16.8269,Document Control,57
+222,23.5577,Production Control,60
+223,16,Production Control,59
+224,16,Production Control,59
+225,16,Production Control,58
+226,16,Production Control,57
+229,9.25,Facilities and Maintenance,46
+230,9.25,Facilities and Maintenance,45
+231,9.25,Facilities and Maintenance,45
+232,9.25,Facilities and Maintenance,47
+233,9.75,Facilities and Maintenance,48
+236,13.9423,Human Resources,58
+237,13.9423,Human Resources,58
+238,18.2692,Human Resources,60
+239,16.5865,Human Resources,60
+240,18.2692,Human Resources,60
+242,19,Finance,60
+243,19,Finance,59
+244,19,Finance,59
+246,19,Finance,58
+247,19,Finance,58
+251,18.2692,Purchasing,58
+252,18.2692,Purchasing,58
+253,18.2692,Purchasing,48
+254,18.2692,Purchasing,47
+255,18.2692,Purchasing,47
+256,18.2692,Purchasing,47
+257,18.2692,Purchasing,47
+258,18.2692,Purchasing,47
+259,18.2692,Purchasing,45
+260,12.75,Purchasing,36
+261,12.75,Purchasing,36
+262,13.4615,Finance,59
+265,32.4519,Information Services,60
+266,32.4519,Information Services,58

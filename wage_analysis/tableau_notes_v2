@@ -1,0 +1,256 @@
+<!--
+
+REF GUIDE
+
+viz names: ##
+viz calcs in code block: ~~~
+calc names: ###
+-->
+
+Parameters to adjust values used in visualizations.
+
+- Minimum Wage
+- Months of Service Limit
+
+
+
+## Minimum Wage Impact Bar Charts
+- Dual bar charts that show the dollar impact and the headcount of employees affected by an increased minimum wage broken down by department.
+
+
+
+~~~sql 
+
+### SET: Hourly Wage < Minimum Wage
+// T/F: Checks if the hourly wage is less than  the company min wage param
+
+SUM([Hourly Wage]) < [Minimum Wage]
+
+
+
+### SET: MoS >= MoS Limit
+// T/F: Checks if employee months of service (MoS) is greater than or equal to months of service param.
+
+SUM([Months Of Service]) >= [Months of Service Limit]
+
+
+
+### COMBO SET: Wage-MoS Combo Set
+MoS >= MoS Limit & Hourly Wage < Minimum Wage
+
+
+
+### !Hourly Cost: Wage Before Increase
+
+// Calculates total hourly wages of employees earning less than company minimum wage param.
+
+// If emp_id is in set
+IF MIN([Hourly Wage < Minimum Wage])
+
+// Take the sum of each hourly wage multiplied by the number of employees who make that wage.
+THEN SUM([Hourly Wage] * {FIXED [Emp Id]:COUNT([Hourly Wage])})
+
+// Else return NULL
+ELSE NULL
+END
+
+
+
+### !Hourly Cost: Wage After Increase
+
+// Calculates total hourly wages of employees currently earning less than company minimum wage param if their wage was increased to the company minimum wage param.
+
+// If emp_id is in set
+IF MIN([Hourly Wage < Minimum Wage])
+
+// Take the sum of company minimum wage param multiplied by the number of employees who currently have an hourly wage less than the company minimum wage param.
+THEN SUM([Minimum Wage]*{FIXED [Emp Id]:COUNT([Hourly Wage])})
+
+// Else return NULL
+ELSE NULL
+END
+
+
+
+### !Yearly Additional Cost After Increase
+
+// Calculates total yearly additional wages to be earned by employees currently earning less than minimum wage param if minimum was increased to match the param.
+
+(([!Hourly Cost: Wage After Increase]-[!Hourly Cost: Wage Before Increase])*40)*52
+
+~~~
+
+Columns:
+-> AGG(!Yearly Additional Cost After Increase)
+-> CNT(Emp ID)
+
+Rows:
+-> Department
+
+Filters:
+-> Wage-MoS Combo Set
+
+
+Marks:
+-> AGG([!Yearly Additional Cost After Increase])
+-> COUNT([Emp Id])
+
+
+
+---
+
+
+## Dollar Impact of Minimum Wage Text
+- Total additional wages to be paid to employees currently earning below selected minimum wage and within the months of service limitation.
+
+Marks:
+-> Wage-MoS Combo SET
+-> AGG(!Yearly Additional Cost After Increase
+
+
+
+## Employees Below Minimum Wage Text
+- Total number of employees currently earning below selected minimum wage and within the months of service limitation.
+
+Filters:
+-> Wage-MoS Combo SET
+
+Marks:
+-> CNT(Emp ID)
+
+
+
+## Employees Below/Above Minimum Wage Stacked Bar
+- Total number of employees and percentage of employee headcount.
+- Colored by currently earning above/below selected minimum wage and within the months of service limitation.
+
+Columns:
+-> SUM(Hourly Wage)
+
+Marks:
+-> Wage-MoS Combo 
+-> CNT(Emp ID)
+-> CNT(Emp ID) table calc - percentage of total
+
+
+
+## Hourly Wage Histogram (Before)
+- "Current Distribution"
+- Number of employees in each wage bin. 
+- Colored by currently earning above/below selected minimum wage and within the months of service limitation.
+- Normal distribution curve
+
+~~~sql
+### Hourly Wage Bin calc
+INT([Hourly Wage])
+
+
+
+### !Avg Hourly Wage
+// Average hourly wage 
+TOTAL(AVG([Hourly Wage]))
+
+
+
+### !Std Dev Hourly Wage
+// Standard deviation of all hourly wage data
+TOTAL(STDEV([Hourly Wage]))
+
+
+
+### Normal Distribution Curve calc
+//  formula for the normal distribution probability density function
+// (1 / ([St Dev of Measure Values] * SQRT(2*PI()))) * EXP(-((ATTR([Measure Bin]) - [Mean Measure Value])^2 / (2*[St Dev of Measure Values]^2)))
+
+
+(1 / ([!Std Dev Hourly Wage] * SQRT(2*PI()))) 
+* EXP(
+-((ATTR([Hourly Wage Calc Bin]) - [!Avg Hourly Wage])^2 / (2*[!Std Dev Hourly Wage]^2))
+) 
+
+~~~
+
+Columns: 
+-> Hourly Wage Calc bin (continuous)
+
+Rows (dual axis):
+-> CNT(Emp ID)
+-> Normal Distribution Curve Calc 
+
+Marks:
+-> Wage-MoS Combo Set 
+
+
+
+
+## Hourly Wage Histogram (After)
+- "Distribution with Minimum Wage"
+- Number of employees in each wage bin. 
+- Colored by currently earning above/below selected minimum wage and within the months of service limitation.
+- Normal distribution curve w/ Params
+
+~~~sql
+### Wage w/ Params Bin
+INT([Wage w/ Params])
+
+
+
+### !Avg Hourly Wage w/ Params
+// Average hourly wage w/ params applied
+TOTAL(AVG([Wage w/ Params]))
+
+
+
+### !Std Dev Hourly Wage w/ Params
+// Standard deviation of all hourly wage data w/ params applied
+TOTAL(STDEV([Wage w/ Params]))
+
+
+
+### Normal Distribution Curve w/ Params
+//  formula for the normal distribution probability density function
+// (1 / ([St Dev of Measure Values] * SQRT(2*PI()))) * EXP(-((ATTR([Measure Bin]) - [Mean Measure Value])^2 / (2*[St Dev of Measure Values]^2)))
+
+
+(1 / ([!Std Dev Hourly Wage w/ Params] * SQRT(2*PI()))) 
+* EXP(
+-((ATTR([Wage w/ Params Bin]) - [!Avg Hourly Wage w/ Params])^2 / (2*[!Std Dev Hourly Wage w/ Params]^2))
+) 
+
+~~~
+
+Columns: 
+-> Wage w/ Params Bins (continuous)
+
+Rows (dual axis):
+-> CNT(Emp ID)
+-> Normal Distribution Curve w/ Params 
+
+Marks:
+-> Wage-MoS Combo Set 
+
+
+
+## Affected Employees Scatter Plot
+- Highlighted employees affected by a wage increase or months of service limit.
+
+Columns: 
+-> Months of Service
+
+Rows:
+-> Hourly Wage
+
+Marks:
+-> Wage-MoS Combo Set 
+
+
+
+## Average Hourly Wage (Before)
+Marks:
+-> AVG([Hourly Wage])
+
+
+
+## Average Hourly Wage (After)
+Marks:
+-> AVG([!Wage with Params])

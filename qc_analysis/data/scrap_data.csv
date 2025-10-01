@@ -1,0 +1,730 @@
+workorder_id,production_date,product_id,product_description,part_number,order_qty,scrap_qty,scrap_pct,scrap_reason_id,scrap_reason
+41,2011-06-19 00:00:00,518,ML Road Seat Assembly,SA-R430,98,1,0.0102,7,Handling damage
+69,2011-06-19 00:00:00,810,HL Mountain Handlebars,HB-M918,120,3,0.0250,11,Stress test failed
+85,2011-06-19 00:00:00,994,LL Bottom Bracket,BB-7421,224,4,0.0179,14,Trim length too long
+91,2011-06-13 00:00:00,328,Mountain End Caps,EC-M092,240,4,0.0167,15,Trim length too short
+496,2011-06-24 00:00:00,3,BB Ball Bearing,BE-2349,40,1,0.0250,16,Wheel misaligned
+1026,2011-07-08 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,4,Drill pattern incorrect
+1302,2011-07-20 00:00:00,517,LL Road Seat Assembly,SA-R127,423,12,0.0284,1,Brake assembly not as ordered
+1316,2011-07-14 00:00:00,733,"ML Road Frame - Red, 52",FR-R72R-52,72,2,0.0278,3,Gouge in metal
+1325,2011-07-14 00:00:00,744,"HL Mountain Frame - Black, 44",FR-M94B-44,62,1,0.0161,4,Drill pattern incorrect
+1344,2011-07-20 00:00:00,945,Front Derailleur,FD-2342,1132,21,0.0186,7,Handling damage
+1352,2011-07-14 00:00:00,327,Down Tube,DT-2377,1431,42,0.0294,9,Primer process failed
+1358,2011-07-14 00:00:00,401,HL Hub,HU-8998,1418,42,0.0296,10,Seat assembly not as ordered
+1365,2011-07-20 00:00:00,804,HL Fork,FK-9939,635,12,0.0189,11,Stress test failed
+1756,2011-07-24 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,9,Primer process failed
+1906,2011-07-28 00:00:00,3,BB Ball Bearing,BE-2349,60,1,0.0167,1,Brake assembly not as ordered
+2416,2011-08-11 00:00:00,3,BB Ball Bearing,BE-2349,80,2,0.0250,3,Gouge in metal
+2573,2011-08-20 00:00:00,806,ML Headset,HS-2451,407,14,0.0344,12,Thermoform temperature too high
+2577,2011-08-20 00:00:00,812,ML Road Handlebars,HB-R720,128,3,0.0234,13,Thermoform temperature too low
+2589,2011-08-20 00:00:00,950,ML Crankset,CS-6583,407,12,0.0295,15,Trim length too short
+2593,2011-08-20 00:00:00,996,HL Bottom Bracket,BB-9108,409,14,0.0342,15,Trim length too short
+2595,2011-08-14 00:00:00,324,Chain Stays,CS-2812,2080,41,0.0197,16,Wheel misaligned
+2600,2011-08-14 00:00:00,399,Head Tube,HT-8019,1040,26,0.0250,1,Brake assembly not as ordered
+2607,2011-08-20 00:00:00,802,LL Fork,FK-1639,379,10,0.0264,2,Color incorrect
+2896,2011-08-22 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,16,Wheel misaligned
+3547,2011-09-09 00:00:00,532,Seat Stays,SS-2985,40,1,0.0250,8,Paint process failed
+3703,2011-09-19 00:00:00,516,HL Mountain Seat Assembly,SA-M687,187,6,0.0321,1,Brake assembly not as ordered
+3739,2011-09-19 00:00:00,810,HL Mountain Handlebars,HB-M918,187,5,0.0267,6,Drill size too small
+3755,2011-09-19 00:00:00,994,LL Bottom Bracket,BB-7421,351,7,0.0199,9,Primer process failed
+3761,2011-09-13 00:00:00,328,Mountain End Caps,EC-M092,374,7,0.0187,10,Seat assembly not as ordered
+3906,2011-09-17 00:00:00,3,BB Ball Bearing,BE-2349,80,2,0.0250,1,Brake assembly not as ordered
+4216,2011-09-24 00:00:00,3,BB Ball Bearing,BE-2349,120,3,0.0250,3,Gouge in metal
+4940,2011-10-14 00:00:00,729,"LL Road Frame - Red, 60",FR-R38R-60,40,1,0.0250,6,Drill size too small
+4967,2011-10-20 00:00:00,762,"Road-650 Red, 44",BK-R50R-44,63,1,0.0159,11,Stress test failed
+4972,2011-10-20 00:00:00,767,"Road-650 Black, 62",BK-R50B-62,35,1,0.0286,12,Thermoform temperature too high
+4977,2011-10-20 00:00:00,772,"Mountain-100 Silver, 42",BK-M82S-42,92,2,0.0217,13,Thermoform temperature too low
+4982,2011-10-20 00:00:00,777,"Mountain-100 Black, 44",BK-M82B-44,92,2,0.0217,14,Trim length too long
+5000,2011-10-14 00:00:00,729,"LL Road Frame - Red, 60",FR-R38R-60,86,2,0.0233,1,Brake assembly not as ordered
+5005,2011-10-14 00:00:00,734,"ML Road Frame - Red, 58",FR-R72R-58,82,1,0.0122,1,Brake assembly not as ordered
+5010,2011-10-14 00:00:00,739,"HL Mountain Frame - Silver, 42",FR-M94S-42,92,2,0.0217,2,Color incorrect
+5031,2011-10-20 00:00:00,828,HL Road Rear Wheel,RW-R820,163,3,0.0184,5,Drill size too large
+5058,2011-10-14 00:00:00,531,Steerer,SR-2098,2172,65,0.0299,10,Seat assembly not as ordered
+5486,2011-10-25 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,14,Trim length too long
+5576,2011-10-27 00:00:00,3,BB Ball Bearing,BE-2349,90,2,0.0222,13,Thermoform temperature too low
+5706,2011-10-30 00:00:00,3,BB Ball Bearing,BE-2349,40,1,0.0250,1,Brake assembly not as ordered
+5826,2011-11-02 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,4,Drill pattern incorrect
+5976,2011-11-06 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,13,Thermoform temperature too low
+6269,2011-11-19 00:00:00,760,"Road-650 Red, 60",BK-R50R-60,67,2,0.0299,11,Stress test failed
+6279,2011-11-19 00:00:00,770,"Road-650 Black, 52",BK-R50B-52,52,1,0.0192,13,Thermoform temperature too low
+6284,2011-11-19 00:00:00,775,"Mountain-100 Black, 38",BK-M82B-38,63,1,0.0159,14,Trim length too long
+6297,2011-11-13 00:00:00,722,"LL Road Frame - Black, 58",FR-R38B-58,48,1,0.0208,16,Wheel misaligned
+6330,2011-11-19 00:00:00,819,ML Road Front Wheel,FW-R762,207,5,0.0242,5,Drill size too large
+6333,2011-11-19 00:00:00,826,LL Road Rear Wheel,RW-R623,494,17,0.0344,5,Drill size too large
+6355,2011-11-13 00:00:00,534,Top Tube,TO-2301,1613,32,0.0198,9,Primer process failed
+6766,2011-11-23 00:00:00,3,BB Ball Bearing,BE-2349,110,3,0.0273,11,Stress test failed
+6847,2011-11-25 00:00:00,532,Seat Stays,SS-2985,44,1,0.0227,8,Paint process failed
+7117,2011-12-01 00:00:00,532,Seat Stays,SS-2985,56,1,0.0179,3,Gouge in metal
+7537,2011-12-10 00:00:00,532,Seat Stays,SS-2985,40,1,0.0250,6,Drill size too small
+7713,2011-12-20 00:00:00,516,HL Mountain Seat Assembly,SA-M687,171,5,0.0292,2,Color incorrect
+7749,2011-12-20 00:00:00,810,HL Mountain Handlebars,HB-M918,171,5,0.0292,8,Paint process failed
+7765,2011-12-20 00:00:00,994,LL Bottom Bracket,BB-7421,300,6,0.0200,11,Stress test failed
+7771,2011-12-14 00:00:00,328,Mountain End Caps,EC-M092,342,6,0.0175,12,Thermoform temperature too high
+7846,2011-12-16 00:00:00,3,BB Ball Bearing,BE-2349,80,2,0.0250,7,Handling damage
+8126,2011-12-23 00:00:00,3,BB Ball Bearing,BE-2349,40,1,0.0250,4,Drill pattern incorrect
+8376,2011-12-29 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,13,Thermoform temperature too low
+8586,2012-01-03 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,14,Trim length too long
+8886,2012-01-10 00:00:00,3,BB Ball Bearing,BE-2349,60,1,0.0167,14,Trim length too long
+8987,2012-01-12 00:00:00,532,Seat Stays,SS-2985,40,1,0.0250,14,Trim length too long
+9066,2012-01-20 00:00:00,753,"Road-150 Red, 56",BK-R93R-56,42,1,0.0238,11,Stress test failed
+9071,2012-01-20 00:00:00,758,"Road-450 Red, 52",BK-R68R-52,79,1,0.0127,12,Thermoform temperature too high
+9076,2012-01-20 00:00:00,763,"Road-650 Red, 48",BK-R50R-48,65,1,0.0154,13,Thermoform temperature too low
+9086,2012-01-20 00:00:00,773,"Mountain-100 Silver, 44",BK-M82S-44,60,1,0.0167,14,Trim length too long
+9091,2012-01-20 00:00:00,778,"Mountain-100 Black, 48",BK-M82B-48,72,1,0.0139,15,Trim length too short
+9104,2012-01-14 00:00:00,725,"LL Road Frame - Red, 44",FR-R38R-44,79,1,0.0127,1,Brake assembly not as ordered
+9109,2012-01-14 00:00:00,730,"LL Road Frame - Red, 62",FR-R38R-62,75,2,0.0267,2,Color incorrect
+9119,2012-01-14 00:00:00,740,"HL Mountain Frame - Silver, 44",FR-M94S-44,60,1,0.0167,3,Gouge in metal
+9132,2012-01-20 00:00:00,817,HL Mountain Front Wheel,FW-M928,498,14,0.0281,5,Drill size too large
+9157,2012-01-14 00:00:00,532,Seat Stays,SS-2985,6708,181,0.0270,9,Primer process failed
+9163,2012-01-14 00:00:00,316,Blade,BL-2036,3354,117,0.0349,10,Seat assembly not as ordered
+9316,2012-01-18 00:00:00,3,BB Ball Bearing,BE-2349,60,1,0.0167,3,Gouge in metal
+9527,2012-01-23 00:00:00,532,Seat Stays,SS-2985,40,1,0.0250,4,Drill pattern incorrect
+9796,2012-01-30 00:00:00,3,BB Ball Bearing,BE-2349,40,1,0.0250,16,Wheel misaligned
+10259,2012-02-17 00:00:00,760,"Road-650 Red, 60",BK-R50R-60,64,1,0.0156,10,Seat assembly not as ordered
+10264,2012-02-17 00:00:00,765,"Road-650 Black, 58",BK-R50B-58,53,1,0.0189,11,Stress test failed
+10269,2012-02-17 00:00:00,770,"Road-650 Black, 52",BK-R50B-52,48,1,0.0208,11,Stress test failed
+10274,2012-02-17 00:00:00,775,"Mountain-100 Black, 38",BK-M82B-38,57,1,0.0175,12,Thermoform temperature too high
+10287,2012-02-11 00:00:00,722,"LL Road Frame - Black, 58",FR-R38B-58,53,1,0.0189,14,Trim length too long
+10311,2012-02-17 00:00:00,748,"HL Mountain Frame - Silver, 38",FR-M94S-38,54,1,0.0185,2,Color incorrect
+10320,2012-02-17 00:00:00,819,ML Road Front Wheel,FW-R762,180,4,0.0222,3,Gouge in metal
+10323,2012-02-17 00:00:00,826,LL Road Rear Wheel,RW-R623,422,14,0.0332,4,Drill pattern incorrect
+10345,2012-02-11 00:00:00,534,Top Tube,TO-2301,1273,25,0.0196,7,Handling damage
+11106,2012-02-28 00:00:00,3,BB Ball Bearing,BE-2349,80,2,0.0250,1,Brake assembly not as ordered
+11146,2012-02-29 00:00:00,3,BB Ball Bearing,BE-2349,40,1,0.0250,7,Handling damage
+11658,2012-03-19 00:00:00,761,"Road-650 Red, 62",BK-R50R-62,44,1,0.0227,10,Seat assembly not as ordered
+11696,2012-03-13 00:00:00,733,"ML Road Frame - Red, 52",FR-R72R-52,46,1,0.0217,16,Wheel misaligned
+11701,2012-03-13 00:00:00,738,"LL Road Frame - Black, 52",FR-R38B-52,53,1,0.0189,1,Brake assembly not as ordered
+11719,2012-03-19 00:00:00,820,HL Road Front Wheel,FW-R820,73,2,0.0274,3,Gouge in metal
+11722,2012-03-19 00:00:00,827,ML Road Rear Wheel,RW-R762,134,4,0.0299,4,Drill pattern incorrect
+11740,2012-03-13 00:00:00,529,Stem,SM-9087,770,19,0.0247,6,Drill size too small
+11748,2012-03-13 00:00:00,331,Fork End,FE-3760,1886,56,0.0297,8,Paint process failed
+11749,2012-03-13 00:00:00,350,Fork Crown,FC-3654,943,29,0.0308,8,Paint process failed
+11946,2012-03-18 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,7,Handling damage
+12456,2012-03-30 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,9,Primer process failed
+13017,2012-04-11 00:00:00,532,Seat Stays,SS-2985,52,1,0.0192,3,Gouge in metal
+13053,2012-04-18 00:00:00,756,"Road-450 Red, 44",BK-R68R-44,46,1,0.0217,9,Primer process failed
+13058,2012-04-18 00:00:00,761,"Road-650 Red, 62",BK-R50R-62,76,2,0.0263,10,Seat assembly not as ordered
+13063,2012-04-18 00:00:00,766,"Road-650 Black, 60",BK-R50B-60,40,1,0.0250,10,Seat assembly not as ordered
+13068,2012-04-18 00:00:00,771,"Mountain-100 Silver, 38",BK-M82S-38,71,2,0.0282,11,Stress test failed
+13073,2012-04-18 00:00:00,776,"Mountain-100 Black, 42",BK-M82B-42,74,2,0.0270,12,Thermoform temperature too high
+13086,2012-04-12 00:00:00,723,"LL Road Frame - Black, 60",FR-R38B-60,40,1,0.0250,14,Trim length too long
+13096,2012-04-12 00:00:00,733,"ML Road Frame - Red, 52",FR-R72R-52,81,2,0.0247,16,Wheel misaligned
+13101,2012-04-12 00:00:00,738,"LL Road Frame - Black, 52",FR-R38B-52,66,1,0.0152,1,Brake assembly not as ordered
+13119,2012-04-18 00:00:00,820,HL Road Front Wheel,FW-R820,182,5,0.0275,3,Gouge in metal
+13122,2012-04-18 00:00:00,827,ML Road Rear Wheel,RW-R762,266,7,0.0263,4,Drill pattern incorrect
+13140,2012-04-12 00:00:00,529,Stem,SM-9087,1715,42,0.0245,6,Drill size too small
+13148,2012-04-12 00:00:00,331,Fork End,FE-3760,4290,128,0.0298,8,Paint process failed
+13149,2012-04-12 00:00:00,350,Fork Crown,FC-3654,2145,66,0.0308,8,Paint process failed
+13166,2012-04-13 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,11,Stress test failed
+13206,2012-04-14 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,1,Brake assembly not as ordered
+13296,2012-04-16 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,16,Wheel misaligned
+14156,2012-05-05 00:00:00,3,BB Ball Bearing,BE-2349,90,2,0.0222,9,Primer process failed
+14296,2012-05-08 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,16,Wheel misaligned
+14513,2012-05-19 00:00:00,756,"Road-450 Red, 44",BK-R68R-44,33,1,0.0303,2,Color incorrect
+14518,2012-05-19 00:00:00,761,"Road-650 Red, 62",BK-R50R-62,39,1,0.0256,3,Gouge in metal
+14528,2012-05-19 00:00:00,771,"Mountain-100 Silver, 38",BK-M82S-38,65,1,0.0154,5,Drill size too large
+14533,2012-05-19 00:00:00,776,"Mountain-100 Black, 42",BK-M82B-42,60,2,0.0333,5,Drill size too large
+14556,2012-05-13 00:00:00,733,"ML Road Frame - Red, 52",FR-R72R-52,64,1,0.0156,9,Primer process failed
+14561,2012-05-13 00:00:00,738,"LL Road Frame - Black, 52",FR-R38B-52,72,1,0.0139,10,Seat assembly not as ordered
+14579,2012-05-19 00:00:00,820,HL Road Front Wheel,FW-R820,107,3,0.0280,13,Thermoform temperature too low
+14582,2012-05-19 00:00:00,827,ML Road Rear Wheel,RW-R762,210,6,0.0286,14,Trim length too long
+14600,2012-05-13 00:00:00,529,Stem,SM-9087,1236,30,0.0243,1,Brake assembly not as ordered
+14608,2012-05-13 00:00:00,331,Fork End,FE-3760,3134,94,0.0300,2,Color incorrect
+14609,2012-05-13 00:00:00,350,Fork Crown,FC-3654,1567,48,0.0306,2,Color incorrect
+15117,2012-05-24 00:00:00,532,Seat Stays,SS-2985,48,1,0.0208,3,Gouge in metal
+15356,2012-05-30 00:00:00,3,BB Ball Bearing,BE-2349,110,3,0.0273,9,Primer process failed
+15466,2012-06-01 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,11,Stress test failed
+15616,2012-06-04 00:00:00,3,BB Ball Bearing,BE-2349,150,4,0.0267,3,Gouge in metal
+15949,2012-06-12 00:00:00,730,"LL Road Frame - Red, 62",FR-R38R-62,49,1,0.0204,8,Paint process failed
+15951,2012-06-12 00:00:00,738,"LL Road Frame - Black, 52",FR-R38B-52,94,1,0.0106,8,Paint process failed
+16017,2012-06-12 00:00:00,832,"ML Mountain Frame - Black, 48",FR-M63B-48,89,2,0.0225,3,Gouge in metal
+16040,2012-06-12 00:00:00,729,"LL Road Frame - Red, 60",FR-R38R-60,130,3,0.0231,6,Drill size too small
+16056,2012-06-18 00:00:00,813,HL Road Handlebars,HB-R956,364,10,0.0275,9,Primer process failed
+16060,2012-06-18 00:00:00,819,ML Road Front Wheel,FW-R762,251,6,0.0239,10,Seat assembly not as ordered
+16068,2012-06-12 00:00:00,831,"ML Mountain Frame - Black, 44",FR-M63B-44,58,1,0.0172,11,Stress test failed
+16073,2012-06-12 00:00:00,836,"ML Road Frame-W - Yellow, 48",FR-R72Y-48,76,2,0.0263,12,Thermoform temperature too high
+16079,2012-06-18 00:00:00,950,ML Crankset,CS-6583,2371,73,0.0308,13,Thermoform temperature too low
+16095,2012-06-12 00:00:00,534,Top Tube,TO-2301,3524,70,0.0199,16,Wheel misaligned
+16406,2012-06-18 00:00:00,3,BB Ball Bearing,BE-2349,90,2,0.0222,1,Brake assembly not as ordered
+16446,2012-06-19 00:00:00,3,BB Ball Bearing,BE-2349,60,1,0.0167,7,Handling damage
+17117,2012-07-02 00:00:00,532,Seat Stays,SS-2985,40,1,0.0250,3,Gouge in metal
+17226,2012-07-05 00:00:00,3,BB Ball Bearing,BE-2349,60,1,0.0167,4,Drill pattern incorrect
+17386,2012-07-08 00:00:00,3,BB Ball Bearing,BE-2349,100,3,0.0300,14,Trim length too long
+17609,2012-07-19 00:00:00,760,"Road-650 Red, 60",BK-R50R-60,148,4,0.0270,2,Color incorrect
+17614,2012-07-19 00:00:00,765,"Road-650 Black, 58",BK-R50B-58,137,2,0.0146,3,Gouge in metal
+17619,2012-07-19 00:00:00,770,"Road-650 Black, 52",BK-R50B-52,168,5,0.0298,3,Gouge in metal
+17620,2012-07-19 00:00:00,779,"Mountain-200 Silver, 38",BK-M68S-38,112,2,0.0179,3,Gouge in metal
+17625,2012-07-19 00:00:00,784,"Mountain-200 Black, 46",BK-M68B-46,81,1,0.0123,4,Drill pattern incorrect
+17630,2012-07-19 00:00:00,789,"Road-250 Red, 44",BK-R89R-44,90,2,0.0222,5,Drill size too large
+17635,2012-07-19 00:00:00,794,"Road-250 Black, 48",BK-R89B-48,86,1,0.0116,6,Drill size too small
+17640,2012-07-19 00:00:00,799,"Road-550-W Yellow, 42",BK-R64Y-42,74,1,0.0135,6,Drill size too small
+17654,2012-07-19 00:00:00,815,LL Mountain Front Wheel,FW-M423,124,2,0.0161,9,Primer process failed
+17663,2012-07-19 00:00:00,826,LL Road Rear Wheel,RW-R623,127,4,0.0315,10,Seat assembly not as ordered
+17674,2012-07-19 00:00:00,515,ML Mountain Seat Assembly,SA-M237,313,5,0.0160,12,Thermoform temperature too high
+17679,2012-07-13 00:00:00,680,"HL Road Frame - Black, 58",FR-R92B-58,39,1,0.0256,13,Thermoform temperature too low
+17681,2012-07-13 00:00:00,718,"HL Road Frame - Red, 44",FR-R92R-44,90,1,0.0111,13,Thermoform temperature too low
+17693,2012-07-13 00:00:00,736,"LL Road Frame - Black, 44",FR-R38B-44,84,2,0.0238,15,Trim length too short
+17697,2012-07-13 00:00:00,742,"HL Mountain Frame - Silver, 46",FR-M94S-46,137,3,0.0219,16,Wheel misaligned
+17701,2012-07-19 00:00:00,748,"HL Mountain Frame - Silver, 38",FR-M94S-38,112,2,0.0179,1,Brake assembly not as ordered
+17733,2012-07-19 00:00:00,996,HL Bottom Bracket,BB-9108,576,20,0.0347,5,Drill size too large
+17735,2012-07-13 00:00:00,324,Chain Stays,CS-2812,10110,202,0.0200,6,Drill size too small
+17740,2012-07-13 00:00:00,399,Head Tube,HT-8019,5055,126,0.0249,6,Drill size too small
+17747,2012-07-19 00:00:00,802,LL Fork,FK-1639,2008,54,0.0269,8,Paint process failed
+19067,2012-08-07 00:00:00,532,Seat Stays,SS-2985,52,1,0.0192,11,Stress test failed
+19383,2012-08-19 00:00:00,806,ML Headset,HS-2451,92,3,0.0326,14,Trim length too long
+19388,2012-08-19 00:00:00,811,LL Road Handlebars,HB-R504,44,1,0.0227,15,Trim length too short
+19424,2012-08-13 00:00:00,725,"LL Road Frame - Red, 44",FR-R38R-44,126,2,0.0159,4,Drill pattern incorrect
+19429,2012-08-13 00:00:00,730,"LL Road Frame - Red, 62",FR-R38R-62,113,3,0.0265,5,Drill size too large
+19440,2012-08-19 00:00:00,809,ML Mountain Handlebars,HB-M763,289,7,0.0242,6,Drill size too small
+19449,2012-08-19 00:00:00,820,HL Road Front Wheel,FW-R820,396,12,0.0303,8,Paint process failed
+19457,2012-08-13 00:00:00,832,"ML Mountain Frame - Black, 48",FR-M63B-48,83,2,0.0241,9,Primer process failed
+19465,2012-08-19 00:00:00,894,Rear Derailleur,RD-2308,2591,51,0.0197,11,Stress test failed
+19480,2012-08-13 00:00:00,529,Stem,SM-9087,2904,72,0.0248,13,Thermoform temperature too low
+19488,2012-08-13 00:00:00,331,Fork End,FE-3760,7996,239,0.0299,15,Trim length too short
+19489,2012-08-13 00:00:00,350,Fork Crown,FC-3654,3998,123,0.0308,15,Trim length too short
+19656,2012-08-17 00:00:00,3,BB Ball Bearing,BE-2349,40,1,0.0250,9,Primer process failed
+19996,2012-08-24 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,16,Wheel misaligned
+20246,2012-08-29 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,7,Handling damage
+20296,2012-08-30 00:00:00,3,BB Ball Bearing,BE-2349,90,2,0.0222,16,Wheel misaligned
+20928,2012-09-18 00:00:00,761,"Road-650 Red, 62",BK-R50R-62,105,3,0.0286,5,Drill size too large
+20933,2012-09-18 00:00:00,766,"Road-650 Black, 60",BK-R50B-60,59,2,0.0339,5,Drill size too large
+20939,2012-09-18 00:00:00,780,"Mountain-200 Silver, 42",BK-M68S-42,69,2,0.0290,6,Drill size too small
+20949,2012-09-18 00:00:00,790,"Road-250 Red, 48",BK-R89R-48,41,1,0.0244,8,Paint process failed
+20997,2012-09-12 00:00:00,722,"LL Road Frame - Black, 58",FR-R38B-58,107,2,0.0187,16,Wheel misaligned
+21002,2012-09-12 00:00:00,727,"LL Road Frame - Red, 52",FR-R38R-52,44,1,0.0227,1,Brake assembly not as ordered
+21018,2012-09-18 00:00:00,811,LL Road Handlebars,HB-R504,838,25,0.0298,3,Gouge in metal
+21057,2012-09-12 00:00:00,532,Seat Stays,SS-2985,10172,274,0.0269,9,Primer process failed
+21063,2012-09-12 00:00:00,316,Blade,BL-2036,5154,180,0.0349,10,Seat assembly not as ordered
+22579,2012-10-13 00:00:00,730,"LL Road Frame - Red, 62",FR-R38R-62,56,1,0.0179,13,Thermoform temperature too low
+22581,2012-10-13 00:00:00,738,"LL Road Frame - Black, 52",FR-R38B-52,74,1,0.0135,13,Thermoform temperature too low
+22637,2012-10-19 00:00:00,822,"ML Road Frame-W - Yellow, 38",FR-R72Y-38,62,1,0.0161,6,Drill size too small
+22651,2012-10-19 00:00:00,518,ML Road Seat Assembly,SA-R430,361,7,0.0194,8,Paint process failed
+22670,2012-10-13 00:00:00,739,"HL Mountain Frame - Silver, 42",FR-M94S-42,105,2,0.0190,12,Thermoform temperature too high
+22673,2012-10-13 00:00:00,746,"HL Mountain Frame - Black, 46",FR-M94B-46,81,2,0.0247,12,Thermoform temperature too high
+22683,2012-10-19 00:00:00,816,ML Mountain Front Wheel,FW-M762,923,32,0.0347,14,Trim length too long
+22687,2012-10-19 00:00:00,822,"ML Road Frame-W - Yellow, 38",FR-R72Y-38,81,2,0.0247,14,Trim length too long
+22691,2012-10-19 00:00:00,828,HL Road Rear Wheel,RW-R820,547,10,0.0183,15,Trim length too short
+22700,2012-10-13 00:00:00,839,"HL Road Frame - Black, 48",FR-R92B-48,72,1,0.0139,1,Brake assembly not as ordered
+22705,2012-10-19 00:00:00,994,LL Bottom Bracket,BB-7421,1540,30,0.0195,1,Brake assembly not as ordered
+22711,2012-10-13 00:00:00,328,Mountain End Caps,EC-M092,2106,42,0.0199,2,Color incorrect
+23456,2012-10-29 00:00:00,3,BB Ball Bearing,BE-2349,60,1,0.0167,9,Primer process failed
+24076,2012-11-10 00:00:00,3,BB Ball Bearing,BE-2349,60,1,0.0167,13,Thermoform temperature too low
+24169,2012-11-18 00:00:00,760,"Road-650 Red, 60",BK-R50R-60,124,3,0.0242,11,Stress test failed
+24174,2012-11-18 00:00:00,765,"Road-650 Black, 58",BK-R50B-58,81,1,0.0123,12,Thermoform temperature too high
+24179,2012-11-18 00:00:00,770,"Road-650 Black, 52",BK-R50B-52,96,2,0.0208,13,Thermoform temperature too low
+24180,2012-11-18 00:00:00,779,"Mountain-200 Silver, 38",BK-M68S-38,71,1,0.0141,13,Thermoform temperature too low
+24185,2012-11-18 00:00:00,784,"Mountain-200 Black, 46",BK-M68B-46,57,1,0.0175,14,Trim length too long
+24190,2012-11-18 00:00:00,789,"Road-250 Red, 44",BK-R89R-44,45,1,0.0222,15,Trim length too short
+24243,2012-11-12 00:00:00,726,"LL Road Frame - Red, 48",FR-R38R-48,87,3,0.0345,7,Handling damage
+24259,2012-11-18 00:00:00,810,HL Mountain Handlebars,HB-M918,523,16,0.0306,10,Seat assembly not as ordered
+24276,2012-11-12 00:00:00,833,"ML Road Frame-W - Yellow, 40",FR-R72Y-40,42,1,0.0238,13,Thermoform temperature too low
+24284,2012-11-18 00:00:00,945,Front Derailleur,FD-2342,2118,40,0.0189,14,Trim length too long
+24308,2012-11-12 00:00:00,531,Steerer,SR-2098,3030,90,0.0297,2,Color incorrect
+25066,2012-11-25 00:00:00,3,BB Ball Bearing,BE-2349,160,4,0.0250,11,Stress test failed
+25846,2012-12-09 00:00:00,3,BB Ball Bearing,BE-2349,100,3,0.0300,7,Handling damage
+25917,2012-12-10 00:00:00,532,Seat Stays,SS-2985,56,1,0.0179,3,Gouge in metal
+26083,2012-12-19 00:00:00,826,LL Road Rear Wheel,RW-R623,30,1,0.0333,14,Trim length too long
+26091,2012-12-19 00:00:00,518,ML Road Seat Assembly,SA-R430,155,3,0.0194,15,Trim length too short
+26110,2012-12-13 00:00:00,739,"HL Mountain Frame - Silver, 42",FR-M94S-42,51,1,0.0196,2,Color incorrect
+26113,2012-12-13 00:00:00,746,"HL Mountain Frame - Black, 46",FR-M94B-46,42,1,0.0238,2,Color incorrect
+26123,2012-12-19 00:00:00,816,ML Mountain Front Wheel,FW-M762,489,17,0.0348,4,Drill pattern incorrect
+26127,2012-12-19 00:00:00,822,"ML Road Frame-W - Yellow, 38",FR-R72Y-38,41,1,0.0244,4,Drill pattern incorrect
+26131,2012-12-19 00:00:00,828,HL Road Rear Wheel,RW-R820,194,3,0.0155,5,Drill size too large
+26145,2012-12-19 00:00:00,994,LL Bottom Bracket,BB-7421,837,16,0.0191,7,Handling damage
+26151,2012-12-13 00:00:00,328,Mountain End Caps,EC-M092,1080,21,0.0194,8,Paint process failed
+26496,2012-12-20 00:00:00,3,BB Ball Bearing,BE-2349,100,3,0.0300,16,Wheel misaligned
+26606,2012-12-22 00:00:00,3,BB Ball Bearing,BE-2349,110,3,0.0273,1,Brake assembly not as ordered
+27066,2012-12-31 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,11,Stress test failed
+27226,2013-01-03 00:00:00,3,BB Ball Bearing,BE-2349,100,3,0.0300,4,Drill pattern incorrect
+27457,2013-01-07 00:00:00,532,Seat Stays,SS-2985,40,1,0.0250,9,Primer process failed
+27707,2013-01-19 00:00:00,762,"Road-650 Red, 44",BK-R50R-44,112,3,0.0268,2,Color incorrect
+27712,2013-01-19 00:00:00,767,"Road-650 Black, 62",BK-R50B-62,50,1,0.0200,2,Color incorrect
+27718,2013-01-19 00:00:00,781,"Mountain-200 Silver, 46",BK-M68S-46,75,2,0.0267,3,Gouge in metal
+27723,2013-01-19 00:00:00,786,"Mountain-300 Black, 40",BK-M47B-40,68,2,0.0294,4,Drill pattern incorrect
+27728,2013-01-19 00:00:00,791,"Road-250 Red, 52",BK-R89R-52,49,1,0.0204,5,Drill size too large
+27733,2013-01-19 00:00:00,796,"Road-250 Black, 58",BK-R89B-58,45,1,0.0222,5,Drill size too large
+27738,2013-01-19 00:00:00,801,"Road-550-W Yellow, 48",BK-R64Y-48,70,2,0.0286,6,Drill size too small
+27766,2013-01-13 00:00:00,723,"LL Road Frame - Black, 60",FR-R38B-60,59,1,0.0169,11,Stress test failed
+27771,2013-01-13 00:00:00,728,"LL Road Frame - Red, 58",FR-R38R-58,54,1,0.0185,12,Thermoform temperature too high
+27783,2013-01-19 00:00:00,806,ML Headset,HS-2451,2654,92,0.0347,14,Trim length too long
+27787,2013-01-19 00:00:00,812,ML Road Handlebars,HB-R720,307,8,0.0261,14,Trim length too long
+27791,2013-01-19 00:00:00,818,LL Road Front Wheel,FW-R623,1081,21,0.0194,15,Trim length too short
+27795,2013-01-19 00:00:00,824,ML Mountain Rear Wheel,RW-M762,785,15,0.0191,16,Wheel misaligned
+27799,2013-01-13 00:00:00,830,"ML Mountain Frame - Black, 40",FR-M63B-40,68,2,0.0294,16,Wheel misaligned
+27826,2013-01-13 00:00:00,533,Seat Tube,ST-9828,3076,92,0.0299,4,Drill pattern incorrect
+27926,2013-01-15 00:00:00,3,BB Ball Bearing,BE-2349,90,2,0.0222,4,Drill pattern incorrect
+28007,2013-01-16 00:00:00,532,Seat Stays,SS-2985,68,1,0.0147,2,Color incorrect
+28013,2013-01-16 00:00:00,316,Blade,BL-2036,34,1,0.0294,2,Color incorrect
+28276,2013-01-21 00:00:00,3,BB Ball Bearing,BE-2349,110,3,0.0273,13,Thermoform temperature too low
+28466,2013-01-25 00:00:00,3,BB Ball Bearing,BE-2349,110,3,0.0273,11,Stress test failed
+28586,2013-01-27 00:00:00,3,BB Ball Bearing,BE-2349,110,3,0.0273,14,Trim length too long
+28687,2013-01-29 00:00:00,532,Seat Stays,SS-2985,48,1,0.0208,14,Trim length too long
+28867,2013-02-01 00:00:00,532,Seat Stays,SS-2985,40,1,0.0250,11,Stress test failed
+28966,2013-02-03 00:00:00,3,BB Ball Bearing,BE-2349,110,3,0.0273,11,Stress test failed
+29186,2013-02-07 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,14,Trim length too long
+29306,2013-02-16 00:00:00,763,"Road-650 Red, 48",BK-R50R-48,81,2,0.0247,1,Brake assembly not as ordered
+29317,2013-02-16 00:00:00,782,"Mountain-200 Black, 38",BK-M68B-38,72,1,0.0139,3,Gouge in metal
+29322,2013-02-16 00:00:00,787,"Mountain-300 Black, 44",BK-M47B-44,54,1,0.0185,4,Drill pattern incorrect
+29332,2013-02-16 00:00:00,797,"Road-550-W Yellow, 38",BK-R64Y-38,45,1,0.0222,5,Drill size too large
+29370,2013-02-10 00:00:00,729,"LL Road Frame - Red, 60",FR-R38R-60,74,1,0.0135,12,Thermoform temperature too high
+29386,2013-02-16 00:00:00,813,HL Road Handlebars,HB-R956,255,7,0.0275,14,Trim length too long
+29390,2013-02-16 00:00:00,819,ML Road Front Wheel,FW-R762,172,4,0.0233,15,Trim length too short
+29398,2013-02-10 00:00:00,831,"ML Mountain Frame - Black, 44",FR-M63B-44,54,1,0.0185,16,Wheel misaligned
+29403,2013-02-10 00:00:00,836,"ML Road Frame-W - Yellow, 48",FR-R72Y-48,46,1,0.0217,1,Brake assembly not as ordered
+29409,2013-02-16 00:00:00,950,ML Crankset,CS-6583,1703,52,0.0305,2,Color incorrect
+29425,2013-02-10 00:00:00,534,Top Tube,TO-2301,2065,41,0.0199,4,Drill pattern incorrect
+29676,2013-02-15 00:00:00,3,BB Ball Bearing,BE-2349,60,1,0.0167,13,Thermoform temperature too low
+29736,2013-02-16 00:00:00,3,BB Ball Bearing,BE-2349,90,2,0.0222,6,Drill size too small
+29807,2013-02-17 00:00:00,532,Seat Stays,SS-2985,56,1,0.0179,2,Color incorrect
+29846,2013-02-18 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,7,Handling damage
+31029,2013-03-19 00:00:00,760,"Road-650 Red, 60",BK-R50R-60,111,3,0.0270,5,Drill size too large
+31034,2013-03-19 00:00:00,765,"Road-650 Black, 58",BK-R50B-58,93,1,0.0108,6,Drill size too small
+31039,2013-03-19 00:00:00,770,"Road-650 Black, 52",BK-R50B-52,110,3,0.0273,6,Drill size too small
+31040,2013-03-19 00:00:00,779,"Mountain-200 Silver, 38",BK-M68S-38,74,1,0.0135,6,Drill size too small
+31045,2013-03-19 00:00:00,784,"Mountain-200 Black, 46",BK-M68B-46,57,1,0.0175,7,Handling damage
+31050,2013-03-19 00:00:00,789,"Road-250 Red, 44",BK-R89R-44,49,1,0.0204,8,Paint process failed
+31073,2013-03-19 00:00:00,816,ML Mountain Front Wheel,FW-M762,29,1,0.0345,12,Thermoform temperature too high
+31077,2013-03-19 00:00:00,822,"ML Road Frame-W - Yellow, 38",FR-R72Y-38,40,1,0.0250,13,Thermoform temperature too low
+31091,2013-03-19 00:00:00,518,ML Road Seat Assembly,SA-R430,197,3,0.0152,15,Trim length too short
+31110,2013-03-13 00:00:00,739,"HL Mountain Frame - Silver, 42",FR-M94S-42,63,1,0.0159,2,Color incorrect
+31113,2013-03-13 00:00:00,746,"HL Mountain Frame - Black, 46",FR-M94B-46,57,1,0.0175,2,Color incorrect
+31123,2013-03-19 00:00:00,816,ML Mountain Front Wheel,FW-M762,639,22,0.0344,4,Drill pattern incorrect
+31127,2013-03-19 00:00:00,822,"ML Road Frame-W - Yellow, 38",FR-R72Y-38,60,1,0.0167,4,Drill pattern incorrect
+31131,2013-03-19 00:00:00,828,HL Road Rear Wheel,RW-R820,273,5,0.0183,5,Drill size too large
+31145,2013-03-19 00:00:00,994,LL Bottom Bracket,BB-7421,1005,20,0.0199,7,Handling damage
+31151,2013-03-13 00:00:00,328,Mountain End Caps,EC-M092,1450,29,0.0200,8,Paint process failed
+31327,2013-03-16 00:00:00,532,Seat Stays,SS-2985,48,1,0.0208,4,Drill pattern incorrect
+31576,2013-03-21 00:00:00,3,BB Ball Bearing,BE-2349,100,3,0.0300,13,Thermoform temperature too low
+31796,2013-03-25 00:00:00,3,BB Ball Bearing,BE-2349,180,5,0.0278,16,Wheel misaligned
+31956,2013-03-28 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,9,Primer process failed
+32757,2013-04-12 00:00:00,722,"LL Road Frame - Black, 58",FR-R38B-58,40,1,0.0250,9,Primer process failed
+32770,2013-04-18 00:00:00,759,"Road-650 Red, 58",BK-R50R-58,45,1,0.0222,12,Thermoform temperature too high
+32775,2013-04-18 00:00:00,764,"Road-650 Red, 52",BK-R50R-52,83,1,0.0120,12,Thermoform temperature too high
+32780,2013-04-18 00:00:00,769,"Road-650 Black, 48",BK-R50B-48,51,1,0.0196,13,Thermoform temperature too low
+32786,2013-04-18 00:00:00,783,"Mountain-200 Black, 42",BK-M68B-42,110,3,0.0273,14,Trim length too long
+32791,2013-04-18 00:00:00,788,"Mountain-300 Black, 48",BK-M47B-48,76,1,0.0132,15,Trim length too short
+32796,2013-04-18 00:00:00,793,"Road-250 Black, 44",BK-R89B-44,85,2,0.0235,16,Wheel misaligned
+32801,2013-04-18 00:00:00,798,"Road-550-W Yellow, 40",BK-R64Y-40,81,1,0.0123,1,Brake assembly not as ordered
+32810,2013-04-18 00:00:00,809,ML Mountain Handlebars,HB-M763,62,1,0.0161,2,Color incorrect
+32823,2013-04-18 00:00:00,826,LL Road Rear Wheel,RW-R623,103,3,0.0291,4,Drill pattern incorrect
+32832,2013-04-18 00:00:00,517,LL Road Seat Assembly,SA-R127,1181,35,0.0296,5,Drill size too large
+32839,2013-04-12 00:00:00,720,"HL Road Frame - Red, 52",FR-R92R-52,60,1,0.0167,6,Drill size too small
+32851,2013-04-12 00:00:00,738,"LL Road Frame - Black, 52",FR-R38B-52,153,3,0.0196,8,Paint process failed
+32872,2013-04-18 00:00:00,827,ML Road Rear Wheel,RW-R762,357,10,0.0280,12,Thermoform temperature too high
+32881,2013-04-12 00:00:00,838,"HL Road Frame - Black, 44",FR-R92B-44,85,1,0.0118,13,Thermoform temperature too low
+32892,2013-04-12 00:00:00,327,Down Tube,DT-2377,3932,117,0.0298,15,Trim length too short
+32898,2013-04-12 00:00:00,401,HL Hub,HU-8998,3751,112,0.0299,16,Wheel misaligned
+32905,2013-04-18 00:00:00,804,HL Fork,FK-9939,1319,26,0.0197,1,Brake assembly not as ordered
+33326,2013-04-19 00:00:00,3,BB Ball Bearing,BE-2349,150,4,0.0267,4,Drill pattern incorrect
+33936,2013-04-30 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,6,Drill size too small
+34296,2013-05-06 00:00:00,3,BB Ball Bearing,BE-2349,70,2,0.0286,16,Wheel misaligned
+34679,2013-05-13 00:00:00,730,"LL Road Frame - Red, 62",FR-R38R-62,51,1,0.0196,13,Thermoform temperature too low
+34757,2013-05-13 00:00:00,722,"LL Road Frame - Black, 58",FR-R38B-58,86,2,0.0233,9,Primer process failed
+34762,2013-05-13 00:00:00,727,"LL Road Frame - Red, 52",FR-R38R-52,47,1,0.0213,10,Seat assembly not as ordered
+34778,2013-05-19 00:00:00,811,LL Road Handlebars,HB-R504,803,24,0.0299,13,Thermoform temperature too low
+34817,2013-05-13 00:00:00,532,Seat Stays,SS-2985,11012,297,0.0270,3,Gouge in metal
+34823,2013-05-13 00:00:00,316,Blade,BL-2036,5644,197,0.0349,4,Drill pattern incorrect
+35226,2013-05-20 00:00:00,3,BB Ball Bearing,BE-2349,170,5,0.0294,4,Drill pattern incorrect
+35636,2013-05-27 00:00:00,3,BB Ball Bearing,BE-2349,140,4,0.0286,6,Drill size too small
+35876,2013-05-31 00:00:00,3,BB Ball Bearing,BE-2349,140,4,0.0286,13,Thermoform temperature too low
+36187,2013-06-05 00:00:00,532,Seat Stays,SS-2985,44,1,0.0227,14,Trim length too long
+36417,2013-06-09 00:00:00,532,Seat Stays,SS-2985,52,1,0.0192,3,Gouge in metal
+36536,2013-06-12 00:00:00,743,"HL Mountain Frame - Black, 42",FR-M94B-42,45,1,0.0222,6,Drill size too small
+36540,2013-06-18 00:00:00,779,"Mountain-200 Silver, 38",BK-M68S-38,62,1,0.0161,6,Drill size too small
+36564,2013-06-12 00:00:00,835,"ML Road Frame-W - Yellow, 44",FR-R72Y-44,81,1,0.0123,11,Stress test failed
+36576,2013-06-12 00:00:00,893,"HL Touring Frame - Blue, 60",FR-T98U-60,43,1,0.0233,13,Thermoform temperature too low
+36585,2013-06-12 00:00:00,904,"ML Mountain Frame-W - Silver, 40",FR-M63S-40,94,1,0.0106,14,Trim length too long
+36650,2013-06-18 00:00:00,999,"Road-750 Black, 52",BK-R19B-52,97,2,0.0206,8,Paint process failed
+36667,2013-06-12 00:00:00,742,"HL Mountain Frame - Silver, 46",FR-M94S-46,51,1,0.0196,11,Stress test failed
+36671,2013-06-18 00:00:00,748,"HL Mountain Frame - Silver, 38",FR-M94S-38,62,1,0.0161,12,Thermoform temperature too high
+36673,2013-06-18 00:00:00,806,ML Headset,HS-2451,1277,44,0.0345,12,Thermoform temperature too high
+36691,2013-06-18 00:00:00,828,HL Road Rear Wheel,RW-R820,175,3,0.0171,15,Trim length too short
+36699,2013-06-12 00:00:00,840,"HL Road Frame - Black, 52",FR-R92B-52,37,1,0.0270,16,Wheel misaligned
+36702,2013-06-12 00:00:00,887,"HL Touring Frame - Yellow, 46",FR-T98Y-46,82,2,0.0244,1,Brake assembly not as ordered
+36707,2013-06-12 00:00:00,892,"HL Touring Frame - Blue, 54",FR-T98U-54,71,1,0.0141,2,Color incorrect
+36722,2013-06-12 00:00:00,917,"LL Mountain Frame - Silver, 42",FR-M21S-42,34,1,0.0294,4,Drill pattern incorrect
+36738,2013-06-18 00:00:00,951,HL Crankset,CS-9183,331,9,0.0272,6,Drill size too small
+36755,2013-06-12 00:00:00,534,Top Tube,TO-2301,3946,78,0.0198,9,Primer process failed
+37536,2013-06-22 00:00:00,3,BB Ball Bearing,BE-2349,230,6,0.0261,6,Drill size too small
+37547,2013-06-22 00:00:00,532,Seat Stays,SS-2985,92,2,0.0217,8,Paint process failed
+37553,2013-06-22 00:00:00,316,Blade,BL-2036,46,1,0.0217,9,Primer process failed
+38278,2013-07-01 00:00:00,401,HL Hub,HU-8998,40,1,0.0250,13,Thermoform temperature too low
+38618,2013-07-05 00:00:00,331,Fork End,FE-3760,56,1,0.0179,3,Gouge in metal
+38676,2013-07-06 00:00:00,3,BB Ball Bearing,BE-2349,150,4,0.0267,13,Thermoform temperature too low
+38687,2013-07-06 00:00:00,532,Seat Stays,SS-2985,60,1,0.0167,14,Trim length too long
+38693,2013-07-06 00:00:00,316,Blade,BL-2036,30,1,0.0333,15,Trim length too short
+38768,2013-07-07 00:00:00,331,Fork End,FE-3760,36,1,0.0278,11,Stress test failed
+39219,2013-07-19 00:00:00,780,"Mountain-200 Silver, 42",BK-M68S-42,96,2,0.0208,3,Gouge in metal
+39265,2013-07-13 00:00:00,904,"ML Mountain Frame-W - Silver, 40",FR-M63S-40,117,2,0.0171,11,Stress test failed
+39330,2013-07-19 00:00:00,999,"Road-750 Black, 52",BK-R19B-52,103,2,0.0194,5,Drill size too large
+39339,2013-07-13 00:00:00,680,"HL Road Frame - Black, 58",FR-R92B-58,42,1,0.0238,6,Drill size too small
+39352,2013-07-19 00:00:00,747,"HL Mountain Frame - Black, 38",FR-M94B-38,153,4,0.0261,9,Primer process failed
+39354,2013-07-19 00:00:00,805,LL Headset,HS-0296,1318,25,0.0190,9,Primer process failed
+39363,2013-07-19 00:00:00,816,ML Mountain Front Wheel,FW-M762,578,20,0.0346,10,Seat assembly not as ordered
+39372,2013-07-19 00:00:00,827,ML Road Rear Wheel,RW-R762,697,20,0.0287,12,Thermoform temperature too high
+39380,2013-07-13 00:00:00,839,"HL Road Frame - Black, 48",FR-R92B-48,61,1,0.0164,13,Thermoform temperature too low
+39383,2013-07-13 00:00:00,886,"LL Touring Frame - Yellow, 62",FR-T67Y-62,101,3,0.0297,14,Trim length too long
+39388,2013-07-13 00:00:00,891,"HL Touring Frame - Blue, 50",FR-T98U-50,76,2,0.0263,15,Trim length too short
+39393,2013-07-13 00:00:00,896,"LL Touring Frame - Blue, 54",FR-T67U-54,71,2,0.0282,15,Trim length too short
+39419,2013-07-19 00:00:00,950,ML Crankset,CS-6583,1933,59,0.0305,3,Gouge in metal
+39423,2013-07-19 00:00:00,996,HL Bottom Bracket,BB-9108,884,30,0.0339,4,Drill pattern incorrect
+39425,2013-07-13 00:00:00,324,Chain Stays,CS-2812,12062,241,0.0200,4,Drill pattern incorrect
+39429,2013-07-13 00:00:00,330,Touring End Caps,EC-T209,2878,89,0.0309,5,Drill size too large
+39436,2013-07-13 00:00:00,533,Seat Tube,ST-9828,6031,180,0.0298,6,Drill size too small
+39716,2013-07-17 00:00:00,3,BB Ball Bearing,BE-2349,50,1,0.0200,3,Gouge in metal
+40378,2013-07-25 00:00:00,331,Fork End,FE-3760,34,1,0.0294,13,Thermoform temperature too low
+41857,2013-08-13 00:00:00,722,"LL Road Frame - Black, 58",FR-R38B-58,44,1,0.0227,9,Primer process failed
+41868,2013-08-19 00:00:00,781,"Mountain-200 Silver, 46",BK-M68S-46,72,2,0.0278,11,Stress test failed
+41886,2013-08-19 00:00:00,813,HL Road Handlebars,HB-R956,51,1,0.0196,14,Trim length too long
+41887,2013-08-19 00:00:00,822,"ML Road Frame-W - Yellow, 38",FR-R72Y-38,42,1,0.0238,14,Trim length too long
+41909,2013-08-13 00:00:00,900,"LL Touring Frame - Yellow, 50",FR-T67Y-50,37,1,0.0270,2,Color incorrect
+41928,2013-08-19 00:00:00,951,HL Crankset,CS-9183,108,3,0.0278,5,Drill size too large
+41975,2013-08-19 00:00:00,514,LL Mountain Seat Assembly,SA-M198,568,11,0.0194,12,Thermoform temperature too high
+41999,2013-08-19 00:00:00,810,HL Mountain Handlebars,HB-M918,558,17,0.0305,16,Wheel misaligned
+42008,2013-08-19 00:00:00,821,Touring Front Wheel,FW-T905,1595,47,0.0295,2,Color incorrect
+42016,2013-08-13 00:00:00,833,"ML Road Frame-W - Yellow, 40",FR-R72Y-40,168,5,0.0298,3,Gouge in metal
+42055,2013-08-19 00:00:00,944,"LL Mountain Frame - Silver, 40",FR-M21S-40,57,1,0.0175,9,Primer process failed
+42071,2013-08-13 00:00:00,398,Handlebar Tube,HT-2981,4158,83,0.0200,12,Thermoform temperature too high
+42178,2013-08-14 00:00:00,331,Fork End,FE-3760,48,1,0.0208,13,Thermoform temperature too low
+42246,2013-08-15 00:00:00,3,BB Ball Bearing,BE-2349,210,6,0.0286,7,Handling damage
+42257,2013-08-15 00:00:00,532,Seat Stays,SS-2985,84,2,0.0238,9,Primer process failed
+42263,2013-08-15 00:00:00,316,Blade,BL-2036,42,1,0.0238,10,Seat assembly not as ordered
+42678,2013-08-20 00:00:00,401,HL Hub,HU-8998,34,1,0.0294,13,Thermoform temperature too low
+42926,2013-08-23 00:00:00,3,BB Ball Bearing,BE-2349,150,4,0.0267,4,Drill pattern incorrect
+42937,2013-08-23 00:00:00,532,Seat Stays,SS-2985,60,1,0.0167,6,Drill size too small
+42943,2013-08-23 00:00:00,316,Blade,BL-2036,30,1,0.0333,7,Handling damage
+43016,2013-08-24 00:00:00,3,BB Ball Bearing,BE-2349,240,7,0.0292,3,Gouge in metal
+43027,2013-08-24 00:00:00,532,Seat Stays,SS-2985,96,2,0.0208,4,Drill pattern incorrect
+43033,2013-08-24 00:00:00,316,Blade,BL-2036,48,1,0.0208,5,Drill size too large
+43105,2013-08-25 00:00:00,324,Chain Stays,CS-2812,62,1,0.0161,1,Brake assembly not as ordered
+43628,2013-08-31 00:00:00,401,HL Hub,HU-8998,52,1,0.0192,5,Drill size too large
+44158,2013-09-06 00:00:00,331,Fork End,FE-3760,36,1,0.0278,10,Seat assembly not as ordered
+44635,2013-09-12 00:00:00,904,"ML Mountain Frame-W - Silver, 40",FR-M63S-40,58,1,0.0172,6,Drill size too small
+44643,2013-09-12 00:00:00,926,"LL Mountain Frame - Black, 48",FR-M21B-48,31,1,0.0323,7,Handling damage
+44695,2013-09-18 00:00:00,514,LL Mountain Seat Assembly,SA-M198,319,6,0.0188,16,Wheel misaligned
+44710,2013-09-12 00:00:00,739,"HL Mountain Frame - Silver, 42",FR-M94S-42,49,1,0.0204,2,Color incorrect
+44713,2013-09-12 00:00:00,746,"HL Mountain Frame - Black, 46",FR-M94B-46,52,1,0.0192,2,Color incorrect
+44724,2013-09-18 00:00:00,815,LL Mountain Front Wheel,FW-M423,319,6,0.0188,4,Drill pattern incorrect
+44733,2013-09-18 00:00:00,826,LL Road Rear Wheel,RW-R623,239,8,0.0335,5,Drill size too large
+44744,2013-09-12 00:00:00,885,"HL Touring Frame - Yellow, 60",FR-T98Y-60,77,1,0.0130,7,Handling damage
+44749,2013-09-12 00:00:00,890,"HL Touring Frame - Blue, 46",FR-T98U-46,70,2,0.0286,8,Paint process failed
+44780,2013-09-18 00:00:00,949,LL Crankset,CS-4759,710,17,0.0239,13,Thermoform temperature too low
+44784,2013-09-18 00:00:00,995,ML Bottom Bracket,BB-8107,738,14,0.0190,14,Trim length too long
+44786,2013-09-12 00:00:00,3,BB Ball Bearing,BE-2349,22440,673,0.0300,14,Trim length too long
+44790,2013-09-12 00:00:00,329,Road End Caps,EC-R098,1688,42,0.0249,15,Trim length too short
+44797,2013-09-12 00:00:00,532,Seat Stays,SS-2985,11632,314,0.0270,16,Wheel misaligned
+44803,2013-09-12 00:00:00,316,Blade,BL-2036,5816,203,0.0349,1,Brake assembly not as ordered
+44888,2013-09-13 00:00:00,331,Fork End,FE-3760,40,1,0.0250,15,Trim length too short
+45158,2013-09-16 00:00:00,331,Fork End,FE-3760,48,1,0.0208,10,Seat assembly not as ordered
+45236,2013-09-17 00:00:00,3,BB Ball Bearing,BE-2349,250,7,0.0280,6,Drill size too small
+45247,2013-09-17 00:00:00,532,Seat Stays,SS-2985,100,2,0.0200,8,Paint process failed
+45253,2013-09-17 00:00:00,316,Blade,BL-2036,50,1,0.0200,9,Primer process failed
+45756,2013-09-23 00:00:00,3,BB Ball Bearing,BE-2349,200,6,0.0300,9,Primer process failed
+45767,2013-09-23 00:00:00,532,Seat Stays,SS-2985,80,2,0.0250,11,Stress test failed
+45773,2013-09-23 00:00:00,316,Blade,BL-2036,40,1,0.0250,12,Thermoform temperature too high
+45968,2013-09-25 00:00:00,331,Fork End,FE-3760,48,1,0.0208,11,Stress test failed
+47098,2013-10-08 00:00:00,331,Fork End,FE-3760,34,1,0.0294,16,Wheel misaligned
+47246,2013-10-10 00:00:00,3,BB Ball Bearing,BE-2349,160,4,0.0250,7,Handling damage
+47257,2013-10-10 00:00:00,532,Seat Stays,SS-2985,64,1,0.0156,9,Primer process failed
+47263,2013-10-10 00:00:00,316,Blade,BL-2036,32,1,0.0313,10,Seat assembly not as ordered
+47476,2013-10-19 00:00:00,793,"Road-250 Black, 44",BK-R89B-44,53,1,0.0189,13,Thermoform temperature too low
+47481,2013-10-19 00:00:00,798,"Road-550-W Yellow, 40",BK-R64Y-40,60,1,0.0167,13,Thermoform temperature too low
+47493,2013-10-13 00:00:00,836,"ML Road Frame-W - Yellow, 48",FR-R72Y-48,38,1,0.0263,15,Trim length too short
+47512,2013-10-13 00:00:00,917,"LL Mountain Frame - Silver, 42",FR-M21S-42,43,1,0.0233,2,Color incorrect
+47515,2013-10-13 00:00:00,924,"LL Mountain Frame - Black, 42",FR-M21B-42,52,1,0.0192,3,Gouge in metal
+47582,2013-10-13 00:00:00,737,"LL Road Frame - Black, 48",FR-R38B-48,93,2,0.0215,14,Trim length too long
+47586,2013-10-13 00:00:00,743,"HL Mountain Frame - Black, 42",FR-M94B-42,104,3,0.0288,14,Trim length too long
+47592,2013-10-19 00:00:00,807,HL Headset,HS-3479,438,13,0.0297,15,Trim length too short
+47610,2013-10-19 00:00:00,829,Touring Rear Wheel,RW-T905,1107,27,0.0244,2,Color incorrect
+47626,2013-10-13 00:00:00,893,"HL Touring Frame - Blue, 60",FR-T98U-60,164,4,0.0244,4,Drill pattern incorrect
+47662,2013-10-13 00:00:00,327,Down Tube,DT-2377,4507,135,0.0300,10,Seat assembly not as ordered
+47670,2013-10-13 00:00:00,529,Stem,SM-9087,3375,84,0.0249,12,Thermoform temperature too high
+47678,2013-10-13 00:00:00,331,Fork End,FE-3760,9014,270,0.0300,13,Thermoform temperature too low
+47679,2013-10-13 00:00:00,350,Fork Crown,FC-3654,4507,139,0.0308,13,Thermoform temperature too low
+47768,2013-10-14 00:00:00,331,Fork End,FE-3760,40,1,0.0250,11,Stress test failed
+47868,2013-10-15 00:00:00,331,Fork End,FE-3760,62,1,0.0161,11,Stress test failed
+47958,2013-10-16 00:00:00,331,Fork End,FE-3760,36,1,0.0278,10,Seat assembly not as ordered
+48128,2013-10-18 00:00:00,331,Fork End,FE-3760,42,1,0.0238,5,Drill size too large
+48208,2013-10-19 00:00:00,401,HL Hub,HU-8998,34,1,0.0294,2,Color incorrect
+48498,2013-10-22 00:00:00,331,Fork End,FE-3760,54,1,0.0185,16,Wheel misaligned
+48546,2013-10-23 00:00:00,3,BB Ball Bearing,BE-2349,90,2,0.0222,7,Handling damage
+48925,2013-10-27 00:00:00,324,Chain Stays,CS-2812,50,1,0.0200,4,Drill pattern incorrect
+49128,2013-10-29 00:00:00,331,Fork End,FE-3760,54,1,0.0185,5,Drill size too large
+49218,2013-10-30 00:00:00,331,Fork End,FE-3760,46,1,0.0217,3,Gouge in metal
+49388,2013-11-01 00:00:00,331,Fork End,FE-3760,36,1,0.0278,15,Trim length too short
+49588,2013-11-03 00:00:00,531,Steerer,SR-2098,34,1,0.0294,15,Trim length too short
+49745,2013-11-05 00:00:00,324,Chain Stays,CS-2812,64,1,0.0156,7,Handling damage
+49848,2013-11-06 00:00:00,331,Fork End,FE-3760,40,1,0.0250,8,Paint process failed
+49916,2013-11-07 00:00:00,3,BB Ball Bearing,BE-2349,220,6,0.0273,3,Gouge in metal
+49927,2013-11-07 00:00:00,532,Seat Stays,SS-2985,88,2,0.0227,4,Drill pattern incorrect
+49933,2013-11-07 00:00:00,316,Blade,BL-2036,44,1,0.0227,5,Drill size too large
+50218,2013-11-10 00:00:00,401,HL Hub,HU-8998,36,1,0.0278,3,Gouge in metal
+50328,2013-11-11 00:00:00,331,Fork End,FE-3760,46,1,0.0217,5,Drill size too large
+50352,2013-11-18 00:00:00,797,"Road-550-W Yellow, 38",BK-R64Y-38,60,1,0.0167,9,Primer process failed
+50370,2013-11-12 00:00:00,889,"HL Touring Frame - Yellow, 54",FR-T98Y-54,47,1,0.0213,12,Thermoform temperature too high
+50395,2013-11-18 00:00:00,954,"Touring-1000 Yellow, 46",BK-T79Y-46,96,1,0.0104,16,Wheel misaligned
+50400,2013-11-18 00:00:00,959,"Touring-3000 Blue, 58",BK-T18U-58,48,1,0.0208,1,Brake assembly not as ordered
+50410,2013-11-18 00:00:00,969,"Touring-1000 Blue, 60",BK-T79U-60,110,2,0.0182,2,Color incorrect
+50415,2013-11-18 00:00:00,974,"Road-350-W Yellow, 42",BK-R79Y-42,56,1,0.0179,3,Gouge in metal
+50420,2013-11-18 00:00:00,979,"Touring-3000 Blue, 50",BK-T18U-50,78,1,0.0128,3,Gouge in metal
+50435,2013-11-18 00:00:00,994,LL Bottom Bracket,BB-7421,64,1,0.0156,6,Drill size too small
+50442,2013-11-18 00:00:00,517,LL Road Seat Assembly,SA-R127,254,7,0.0276,7,Handling damage
+50447,2013-11-18 00:00:00,522,HL Touring Seat Assembly,SA-T872,548,14,0.0255,8,Paint process failed
+50452,2013-11-12 00:00:00,737,"LL Road Frame - Black, 48",FR-R38B-48,106,3,0.0283,9,Primer process failed
+50456,2013-11-12 00:00:00,743,"HL Mountain Frame - Black, 42",FR-M94B-42,110,3,0.0273,9,Primer process failed
+50462,2013-11-18 00:00:00,807,HL Headset,HS-3479,548,16,0.0292,10,Seat assembly not as ordered
+50480,2013-11-18 00:00:00,829,Touring Rear Wheel,RW-T905,1365,34,0.0249,13,Thermoform temperature too low
+50491,2013-11-12 00:00:00,888,"HL Touring Frame - Yellow, 50",FR-T98Y-50,62,1,0.0161,15,Trim length too short
+50496,2013-11-12 00:00:00,893,"HL Touring Frame - Blue, 60",FR-T98U-60,181,5,0.0276,16,Wheel misaligned
+50506,2013-11-12 00:00:00,903,"LL Touring Frame - Blue, 44",FR-T67U-44,38,1,0.0263,1,Brake assembly not as ordered
+50532,2013-11-12 00:00:00,327,Down Tube,DT-2377,4492,134,0.0298,5,Drill size too large
+50540,2013-11-12 00:00:00,529,Stem,SM-9087,3518,87,0.0247,6,Drill size too small
+50548,2013-11-12 00:00:00,331,Fork End,FE-3760,8984,269,0.0299,8,Paint process failed
+50549,2013-11-12 00:00:00,350,Fork Crown,FC-3654,4492,139,0.0309,8,Paint process failed
+50865,2013-11-15 00:00:00,324,Chain Stays,CS-2812,72,1,0.0139,11,Stress test failed
+50876,2013-11-15 00:00:00,533,Seat Tube,ST-9828,36,1,0.0278,13,Thermoform temperature too low
+50988,2013-11-16 00:00:00,401,HL Hub,HU-8998,52,1,0.0192,15,Trim length too short
+51218,2013-11-18 00:00:00,401,HL Hub,HU-8998,62,1,0.0161,3,Gouge in metal
+51508,2013-11-21 00:00:00,331,Fork End,FE-3760,34,1,0.0294,2,Color incorrect
+51595,2013-11-22 00:00:00,324,Chain Stays,CS-2812,72,1,0.0139,16,Wheel misaligned
+51606,2013-11-22 00:00:00,533,Seat Tube,ST-9828,36,1,0.0278,1,Brake assembly not as ordered
+51702,2013-11-23 00:00:00,327,Down Tube,DT-2377,41,1,0.0244,1,Brake assembly not as ordered
+51710,2013-11-23 00:00:00,529,Stem,SM-9087,41,1,0.0244,2,Color incorrect
+51718,2013-11-23 00:00:00,331,Fork End,FE-3760,82,2,0.0244,3,Gouge in metal
+51719,2013-11-23 00:00:00,350,Fork Crown,FC-3654,41,1,0.0244,3,Gouge in metal
+51806,2013-11-24 00:00:00,3,BB Ball Bearing,BE-2349,380,11,0.0289,1,Brake assembly not as ordered
+51817,2013-11-24 00:00:00,532,Seat Stays,SS-2985,152,4,0.0263,3,Gouge in metal
+51823,2013-11-24 00:00:00,316,Blade,BL-2036,76,2,0.0263,4,Drill pattern incorrect
+51928,2013-11-25 00:00:00,531,Steerer,SR-2098,35,1,0.0286,5,Drill size too large
+52330,2013-11-29 00:00:00,399,Head Tube,HT-8019,44,1,0.0227,5,Drill size too large
+52642,2013-12-02 00:00:00,327,Down Tube,DT-2377,36,1,0.0278,7,Handling damage
+52658,2013-12-02 00:00:00,331,Fork End,FE-3760,72,2,0.0278,10,Seat assembly not as ordered
+52659,2013-12-02 00:00:00,350,Fork Crown,FC-3654,36,1,0.0278,10,Seat assembly not as ordered
+52832,2013-12-04 00:00:00,327,Down Tube,DT-2377,34,1,0.0294,5,Drill size too large
+52848,2013-12-04 00:00:00,331,Fork End,FE-3760,68,2,0.0294,8,Paint process failed
+52849,2013-12-04 00:00:00,350,Fork Crown,FC-3654,34,1,0.0294,8,Paint process failed
+53246,2013-12-08 00:00:00,3,BB Ball Bearing,BE-2349,260,7,0.0269,7,Handling damage
+53257,2013-12-08 00:00:00,532,Seat Stays,SS-2985,104,2,0.0192,9,Primer process failed
+53263,2013-12-08 00:00:00,316,Blade,BL-2036,52,1,0.0192,10,Seat assembly not as ordered
+53468,2013-12-10 00:00:00,401,HL Hub,HU-8998,42,1,0.0238,11,Stress test failed
+53732,2013-12-19 00:00:00,957,"Touring-1000 Yellow, 60",BK-T79Y-60,42,1,0.0238,5,Drill size too large
+53747,2013-12-19 00:00:00,972,"Touring-2000 Blue, 54",BK-T44U-54,43,1,0.0233,8,Paint process failed
+53771,2013-12-19 00:00:00,998,"Road-750 Black, 48",BK-R19B-48,69,1,0.0145,12,Thermoform temperature too high
+53792,2013-12-19 00:00:00,747,"HL Mountain Frame - Black, 38",FR-M94B-38,48,1,0.0208,15,Trim length too short
+53794,2013-12-19 00:00:00,805,LL Headset,HS-0296,541,10,0.0185,16,Wheel misaligned
+53803,2013-12-19 00:00:00,816,ML Mountain Front Wheel,FW-M762,252,8,0.0317,1,Brake assembly not as ordered
+53812,2013-12-19 00:00:00,827,ML Road Rear Wheel,RW-R762,380,11,0.0289,2,Color incorrect
+53823,2013-12-13 00:00:00,886,"LL Touring Frame - Yellow, 62",FR-T67Y-62,37,1,0.0270,4,Drill pattern incorrect
+53828,2013-12-13 00:00:00,891,"HL Touring Frame - Blue, 50",FR-T98U-50,37,1,0.0270,5,Drill size too large
+53833,2013-12-13 00:00:00,896,"LL Touring Frame - Blue, 54",FR-T67U-54,29,1,0.0345,5,Drill size too large
+53859,2013-12-19 00:00:00,950,ML Crankset,CS-6583,925,28,0.0303,10,Seat assembly not as ordered
+53863,2013-12-19 00:00:00,996,HL Bottom Bracket,BB-9108,338,11,0.0325,10,Seat assembly not as ordered
+53865,2013-12-13 00:00:00,324,Chain Stays,CS-2812,4162,83,0.0199,11,Stress test failed
+53869,2013-12-13 00:00:00,330,Touring End Caps,EC-T209,1100,34,0.0309,11,Stress test failed
+53876,2013-12-13 00:00:00,533,Seat Tube,ST-9828,2081,62,0.0298,13,Thermoform temperature too low
+54306,2013-12-18 00:00:00,3,BB Ball Bearing,BE-2349,220,6,0.0273,1,Brake assembly not as ordered
+54317,2013-12-18 00:00:00,532,Seat Stays,SS-2985,88,2,0.0227,3,Gouge in metal
+54323,2013-12-18 00:00:00,316,Blade,BL-2036,44,1,0.0227,4,Drill pattern incorrect
+54688,2013-12-22 00:00:00,401,HL Hub,HU-8998,42,1,0.0238,15,Trim length too short
+54888,2013-12-24 00:00:00,331,Fork End,FE-3760,50,1,0.0200,15,Trim length too short
+54966,2013-12-25 00:00:00,3,BB Ball Bearing,BE-2349,240,7,0.0292,11,Stress test failed
+54977,2013-12-25 00:00:00,532,Seat Stays,SS-2985,96,2,0.0208,13,Thermoform temperature too low
+54983,2013-12-25 00:00:00,316,Blade,BL-2036,48,1,0.0208,14,Trim length too long
+55275,2013-12-28 00:00:00,324,Chain Stays,CS-2812,60,1,0.0167,12,Thermoform temperature too high
+55378,2013-12-29 00:00:00,331,Fork End,FE-3760,40,1,0.0250,13,Thermoform temperature too low
+55468,2013-12-30 00:00:00,331,Fork End,FE-3760,42,1,0.0238,11,Stress test failed
+55658,2014-01-01 00:00:00,531,Steerer,SR-2098,36,1,0.0278,10,Seat assembly not as ordered
+56296,2014-01-08 00:00:00,3,BB Ball Bearing,BE-2349,280,8,0.0286,16,Wheel misaligned
+56307,2014-01-08 00:00:00,532,Seat Stays,SS-2985,112,3,0.0268,2,Color incorrect
+56313,2014-01-08 00:00:00,316,Blade,BL-2036,56,1,0.0179,2,Color incorrect
+56398,2014-01-09 00:00:00,401,HL Hub,HU-8998,44,1,0.0227,16,Wheel misaligned
+56666,2014-01-12 00:00:00,3,BB Ball Bearing,BE-2349,250,7,0.0280,11,Stress test failed
+56677,2014-01-12 00:00:00,532,Seat Stays,SS-2985,100,2,0.0200,13,Thermoform temperature too low
+56683,2014-01-12 00:00:00,316,Blade,BL-2036,50,1,0.0200,14,Trim length too long
+56706,2014-01-19 00:00:00,793,"Road-250 Black, 44",BK-R89B-44,58,1,0.0172,1,Brake assembly not as ordered
+56711,2014-01-19 00:00:00,798,"Road-550-W Yellow, 40",BK-R64Y-40,54,1,0.0185,2,Color incorrect
+56734,2014-01-13 00:00:00,925,"LL Mountain Frame - Black, 44",FR-M21B-44,54,1,0.0185,6,Drill size too small
+56738,2014-01-19 00:00:00,951,HL Crankset,CS-9183,35,1,0.0286,6,Drill size too small
+56789,2014-01-19 00:00:00,520,LL Touring Seat Assembly,SA-T467,311,9,0.0289,15,Trim length too short
+56793,2014-01-13 00:00:00,706,"HL Road Frame - Red, 58",FR-R92R-58,38,1,0.0263,15,Trim length too short
+56801,2014-01-13 00:00:00,738,"LL Road Frame - Black, 52",FR-R38B-52,67,1,0.0149,1,Brake assembly not as ordered
+56811,2014-01-19 00:00:00,808,LL Mountain Handlebars,HB-M243,350,7,0.0200,2,Color incorrect
+56845,2014-01-19 00:00:00,894,Rear Derailleur,RD-2308,2661,53,0.0199,7,Handling damage
+56850,2014-01-13 00:00:00,899,"LL Touring Frame - Yellow, 44",FR-T67Y-44,50,1,0.0200,8,Paint process failed
+56875,2014-01-19 00:00:00,994,LL Bottom Bracket,BB-7421,1188,23,0.0194,12,Thermoform temperature too high
+56881,2014-01-13 00:00:00,328,Mountain End Caps,EC-M092,1738,34,0.0196,13,Thermoform temperature too low
+56898,2014-01-13 00:00:00,531,Steerer,SR-2098,3336,100,0.0300,16,Wheel misaligned
+56975,2014-01-14 00:00:00,324,Chain Stays,CS-2812,56,1,0.0179,12,Thermoform temperature too high
+57488,2014-01-19 00:00:00,531,Steerer,SR-2098,40,1,0.0250,15,Trim length too short
+57582,2014-01-20 00:00:00,327,Down Tube,DT-2377,40,1,0.0250,14,Trim length too long
+57590,2014-01-20 00:00:00,529,Stem,SM-9087,40,1,0.0250,15,Trim length too short
+57598,2014-01-20 00:00:00,331,Fork End,FE-3760,80,2,0.0250,16,Wheel misaligned
+57599,2014-01-20 00:00:00,350,Fork Crown,FC-3654,40,1,0.0250,16,Wheel misaligned
+57688,2014-01-21 00:00:00,401,HL Hub,HU-8998,38,1,0.0263,15,Trim length too short
+57788,2014-01-22 00:00:00,401,HL Hub,HU-8998,42,1,0.0238,15,Trim length too short
+57988,2014-01-24 00:00:00,331,Fork End,FE-3760,42,1,0.0238,15,Trim length too short
+58266,2014-01-27 00:00:00,3,BB Ball Bearing,BE-2349,380,11,0.0289,11,Stress test failed
+58277,2014-01-27 00:00:00,532,Seat Stays,SS-2985,152,4,0.0263,13,Thermoform temperature too low
+58283,2014-01-27 00:00:00,316,Blade,BL-2036,76,2,0.0263,14,Trim length too long
+58562,2014-01-30 00:00:00,327,Down Tube,DT-2377,35,1,0.0286,10,Seat assembly not as ordered
+58578,2014-01-30 00:00:00,331,Fork End,FE-3760,70,2,0.0286,13,Thermoform temperature too low
+58579,2014-01-30 00:00:00,350,Fork Crown,FC-3654,35,1,0.0286,13,Thermoform temperature too low
+58658,2014-01-31 00:00:00,401,HL Hub,HU-8998,38,1,0.0263,10,Seat assembly not as ordered
+58946,2014-02-03 00:00:00,3,BB Ball Bearing,BE-2349,250,7,0.0280,7,Handling damage
+58957,2014-02-03 00:00:00,532,Seat Stays,SS-2985,100,2,0.0200,9,Primer process failed
+58963,2014-02-03 00:00:00,316,Blade,BL-2036,50,1,0.0200,10,Seat assembly not as ordered
+59035,2014-02-04 00:00:00,324,Chain Stays,CS-2812,58,1,0.0172,6,Drill size too small
+59428,2014-02-08 00:00:00,401,HL Hub,HU-8998,42,1,0.0238,5,Drill size too large
+59538,2014-02-09 00:00:00,531,Steerer,SR-2098,34,1,0.0294,6,Drill size too small
+59639,2014-02-17 00:00:00,780,"Mountain-200 Silver, 42",BK-M68S-42,53,1,0.0189,6,Drill size too small
+59682,2014-02-17 00:00:00,957,"Touring-1000 Yellow, 60",BK-T79Y-60,90,2,0.0222,14,Trim length too long
+59687,2014-02-17 00:00:00,962,"Touring-3000 Yellow, 50",BK-T18Y-50,51,1,0.0196,14,Trim length too long
+59692,2014-02-17 00:00:00,967,"Touring-1000 Blue, 50",BK-T79U-50,48,1,0.0208,15,Trim length too short
+59697,2014-02-17 00:00:00,972,"Touring-2000 Blue, 54",BK-T44U-54,72,1,0.0139,16,Wheel misaligned
+59702,2014-02-17 00:00:00,977,"Road-750 Black, 58",BK-R19B-58,39,1,0.0256,1,Brake assembly not as ordered
+59721,2014-02-17 00:00:00,998,"Road-750 Black, 48",BK-R19B-48,101,2,0.0198,4,Drill pattern incorrect
+59748,2014-02-17 00:00:00,811,LL Road Handlebars,HB-R504,223,6,0.0269,8,Paint process failed
+59757,2014-02-17 00:00:00,822,"ML Road Frame-W - Yellow, 38",FR-R72Y-38,51,1,0.0196,9,Primer process failed
+59765,2014-02-11 00:00:00,834,"ML Road Frame-W - Yellow, 42",FR-R72Y-42,78,1,0.0128,11,Stress test failed
+59804,2014-02-17 00:00:00,945,Front Derailleur,FD-2342,2804,53,0.0189,1,Brake assembly not as ordered
+59820,2014-02-11 00:00:00,399,Head Tube,HT-8019,3414,85,0.0249,3,Gouge in metal
+59827,2014-02-17 00:00:00,802,LL Fork,FK-1639,1296,34,0.0262,4,Drill pattern incorrect
+59918,2014-02-12 00:00:00,401,HL Hub,HU-8998,38,1,0.0263,3,Gouge in metal
+60006,2014-02-13 00:00:00,3,BB Ball Bearing,BE-2349,220,6,0.0273,1,Brake assembly not as ordered
+60017,2014-02-13 00:00:00,532,Seat Stays,SS-2985,88,2,0.0227,3,Gouge in metal
+60023,2014-02-13 00:00:00,316,Blade,BL-2036,44,1,0.0227,4,Drill pattern incorrect
+60472,2014-02-18 00:00:00,327,Down Tube,DT-2377,35,1,0.0286,12,Thermoform temperature too high
+60488,2014-02-18 00:00:00,331,Fork End,FE-3760,70,2,0.0286,15,Trim length too short
+60489,2014-02-18 00:00:00,350,Fork Crown,FC-3654,35,1,0.0286,15,Trim length too short
+60666,2014-02-20 00:00:00,3,BB Ball Bearing,BE-2349,260,7,0.0269,11,Stress test failed
+60677,2014-02-20 00:00:00,532,Seat Stays,SS-2985,104,2,0.0192,13,Thermoform temperature too low
+60683,2014-02-20 00:00:00,316,Blade,BL-2036,52,1,0.0192,14,Trim length too long
+60755,2014-02-21 00:00:00,324,Chain Stays,CS-2812,52,1,0.0192,9,Primer process failed
+60878,2014-02-22 00:00:00,531,Steerer,SR-2098,39,1,0.0256,13,Thermoform temperature too low
+61998,2014-03-05 00:00:00,531,Steerer,SR-2098,36,1,0.0278,16,Wheel misaligned
+62088,2014-03-06 00:00:00,401,HL Hub,HU-8998,40,1,0.0250,15,Trim length too short
+62288,2014-03-08 00:00:00,331,Fork End,FE-3760,58,1,0.0172,15,Trim length too short
+62398,2014-03-09 00:00:00,531,Steerer,SR-2098,36,1,0.0278,16,Wheel misaligned
+62466,2014-03-10 00:00:00,3,BB Ball Bearing,BE-2349,230,6,0.0261,11,Stress test failed
+62477,2014-03-10 00:00:00,532,Seat Stays,SS-2985,92,2,0.0217,13,Thermoform temperature too low
+62483,2014-03-10 00:00:00,316,Blade,BL-2036,46,1,0.0217,14,Trim length too long
+62668,2014-03-12 00:00:00,331,Fork End,FE-3760,54,1,0.0185,11,Stress test failed
+62787,2014-03-20 00:00:00,782,"Mountain-200 Black, 38",BK-M68B-38,63,1,0.0159,14,Trim length too long
+62880,2014-03-20 00:00:00,999,"Road-750 Black, 52",BK-R19B-52,80,2,0.0250,13,Thermoform temperature too low
+62907,2014-03-20 00:00:00,812,ML Road Handlebars,HB-R720,461,12,0.0260,2,Color incorrect
+62911,2014-03-20 00:00:00,818,LL Road Front Wheel,FW-R623,220,4,0.0182,2,Color incorrect
+62916,2014-03-20 00:00:00,823,LL Mountain Rear Wheel,RW-M423,295,8,0.0271,3,Gouge in metal
+62963,2014-03-20 00:00:00,946,LL Touring Handlebars,HB-T721,263,9,0.0342,10,Seat assembly not as ordered
+62979,2014-03-14 00:00:00,400,LL Hub,HU-6280,1030,31,0.0301,13,Thermoform temperature too low
+62986,2014-03-20 00:00:00,803,ML Fork,FK-5136,729,21,0.0288,14,Trim length too long
+63305,2014-03-17 00:00:00,324,Chain Stays,CS-2812,70,1,0.0143,1,Brake assembly not as ordered
+63316,2014-03-17 00:00:00,533,Seat Tube,ST-9828,35,1,0.0286,3,Gouge in metal
+63482,2014-03-19 00:00:00,327,Down Tube,DT-2377,36,1,0.0278,14,Trim length too long
+63498,2014-03-19 00:00:00,331,Fork End,FE-3760,72,2,0.0278,16,Wheel misaligned
+63499,2014-03-19 00:00:00,350,Fork Crown,FC-3654,36,1,0.0278,16,Wheel misaligned
+63585,2014-03-20 00:00:00,324,Chain Stays,CS-2812,60,1,0.0167,14,Trim length too long
+63698,2014-03-21 00:00:00,331,Fork End,FE-3760,56,1,0.0179,16,Wheel misaligned
+63878,2014-03-23 00:00:00,401,HL Hub,HU-8998,44,1,0.0227,13,Thermoform temperature too low
+63988,2014-03-24 00:00:00,331,Fork End,FE-3760,58,1,0.0172,15,Trim length too short
+64358,2014-03-28 00:00:00,331,Fork End,FE-3760,58,1,0.0172,10,Seat assembly not as ordered
+64445,2014-03-29 00:00:00,324,Chain Stays,CS-2812,58,1,0.0172,7,Handling damage
+64878,2014-04-02 00:00:00,331,Fork End,FE-3760,66,1,0.0152,13,Thermoform temperature too low
+64879,2014-04-02 00:00:00,350,Fork Crown,FC-3654,33,1,0.0303,13,Thermoform temperature too low
+65076,2014-04-04 00:00:00,3,BB Ball Bearing,BE-2349,350,10,0.0286,13,Thermoform temperature too low
+65087,2014-04-04 00:00:00,532,Seat Stays,SS-2985,140,3,0.0214,14,Trim length too long
+65093,2014-04-04 00:00:00,316,Blade,BL-2036,70,2,0.0286,15,Trim length too short
+65941,2014-04-19 00:00:00,748,"HL Mountain Frame - Silver, 38",FR-M94S-38,53,1,0.0189,7,Handling damage
+65946,2014-04-19 00:00:00,783,"Mountain-200 Black, 42",BK-M68B-42,78,2,0.0256,7,Handling damage
+65970,2014-04-13 00:00:00,889,"HL Touring Frame - Yellow, 54",FR-T98Y-54,52,1,0.0192,12,Thermoform temperature too high
+65995,2014-04-19 00:00:00,954,"Touring-1000 Yellow, 46",BK-T79Y-46,91,1,0.0110,16,Wheel misaligned
+66010,2014-04-19 00:00:00,969,"Touring-1000 Blue, 60",BK-T79U-60,83,2,0.0241,2,Color incorrect
+66015,2014-04-19 00:00:00,974,"Road-350-W Yellow, 42",BK-R79Y-42,68,1,0.0147,3,Gouge in metal
+66020,2014-04-19 00:00:00,979,"Touring-3000 Blue, 50",BK-T18U-50,56,1,0.0179,3,Gouge in metal
+66042,2014-04-19 00:00:00,517,LL Road Seat Assembly,SA-R127,293,8,0.0273,7,Handling damage
+66047,2014-04-19 00:00:00,522,HL Touring Seat Assembly,SA-T872,426,11,0.0258,8,Paint process failed
+66052,2014-04-13 00:00:00,737,"LL Road Frame - Black, 48",FR-R38B-48,112,3,0.0268,9,Primer process failed
+66056,2014-04-13 00:00:00,743,"HL Mountain Frame - Black, 42",FR-M94B-42,78,2,0.0256,9,Primer process failed
+66062,2014-04-19 00:00:00,807,HL Headset,HS-3479,426,12,0.0282,10,Seat assembly not as ordered
+66080,2014-04-19 00:00:00,829,Touring Rear Wheel,RW-T905,1062,26,0.0245,13,Thermoform temperature too low
+66096,2014-04-13 00:00:00,893,"HL Touring Frame - Blue, 60",FR-T98U-60,156,4,0.0256,16,Wheel misaligned
+66132,2014-04-13 00:00:00,327,Down Tube,DT-2377,4348,130,0.0299,5,Drill size too large
+66140,2014-04-13 00:00:00,529,Stem,SM-9087,3332,83,0.0249,6,Drill size too small
+66148,2014-04-13 00:00:00,331,Fork End,FE-3760,8696,260,0.0299,8,Paint process failed
+66149,2014-04-13 00:00:00,350,Fork Crown,FC-3654,4348,134,0.0308,8,Paint process failed
+66545,2014-04-17 00:00:00,324,Chain Stays,CS-2812,84,1,0.0119,7,Handling damage
+66556,2014-04-17 00:00:00,533,Seat Tube,ST-9828,42,1,0.0238,9,Primer process failed
+66662,2014-04-18 00:00:00,327,Down Tube,DT-2377,39,1,0.0256,10,Seat assembly not as ordered
+66678,2014-04-18 00:00:00,331,Fork End,FE-3760,78,2,0.0256,13,Thermoform temperature too low
+66679,2014-04-18 00:00:00,350,Fork Crown,FC-3654,39,1,0.0256,13,Thermoform temperature too low
+66888,2014-04-20 00:00:00,401,HL Hub,HU-8998,50,1,0.0200,15,Trim length too short
+66986,2014-04-21 00:00:00,3,BB Ball Bearing,BE-2349,410,12,0.0293,14,Trim length too long
+66997,2014-04-21 00:00:00,532,Seat Stays,SS-2985,164,4,0.0244,16,Wheel misaligned
+67003,2014-04-21 00:00:00,316,Blade,BL-2036,82,2,0.0244,1,Brake assembly not as ordered
+67098,2014-04-22 00:00:00,331,Fork End,FE-3760,58,1,0.0172,16,Wheel misaligned
+67198,2014-04-23 00:00:00,401,HL Hub,HU-8998,56,1,0.0179,16,Wheel misaligned
+67302,2014-04-24 00:00:00,327,Down Tube,DT-2377,37,1,0.0270,1,Brake assembly not as ordered
+67318,2014-04-24 00:00:00,331,Fork End,FE-3760,74,2,0.0270,3,Gouge in metal
+67319,2014-04-24 00:00:00,350,Fork Crown,FC-3654,37,1,0.0270,3,Gouge in metal
+67386,2014-04-25 00:00:00,3,BB Ball Bearing,BE-2349,270,8,0.0296,14,Trim length too long
+67397,2014-04-25 00:00:00,532,Seat Stays,SS-2985,108,2,0.0185,16,Wheel misaligned
+67403,2014-04-25 00:00:00,316,Blade,BL-2036,54,1,0.0185,1,Brake assembly not as ordered
+67605,2014-04-27 00:00:00,324,Chain Stays,CS-2812,82,1,0.0122,1,Brake assembly not as ordered
+67616,2014-04-27 00:00:00,533,Seat Tube,ST-9828,41,1,0.0244,3,Gouge in metal
+67712,2014-04-28 00:00:00,327,Down Tube,DT-2377,43,1,0.0233,2,Color incorrect
+67720,2014-04-28 00:00:00,529,Stem,SM-9087,43,1,0.0233,3,Gouge in metal
+67728,2014-04-28 00:00:00,331,Fork End,FE-3760,86,2,0.0233,5,Drill size too large
+67729,2014-04-28 00:00:00,350,Fork Crown,FC-3654,43,1,0.0233,5,Drill size too large
+68245,2014-05-03 00:00:00,324,Chain Stays,CS-2812,82,1,0.0122,7,Handling damage
+68256,2014-05-03 00:00:00,533,Seat Tube,ST-9828,41,1,0.0244,9,Primer process failed
+68556,2014-05-06 00:00:00,3,BB Ball Bearing,BE-2349,380,11,0.0289,9,Primer process failed
+68567,2014-05-06 00:00:00,532,Seat Stays,SS-2985,152,4,0.0263,11,Stress test failed
+68573,2014-05-06 00:00:00,316,Blade,BL-2036,76,2,0.0263,12,Thermoform temperature too high
+68758,2014-05-08 00:00:00,401,HL Hub,HU-8998,38,1,0.0263,10,Seat assembly not as ordered
+69052,2014-05-11 00:00:00,327,Down Tube,DT-2377,37,1,0.0270,9,Primer process failed
+69068,2014-05-11 00:00:00,331,Fork End,FE-3760,74,2,0.0270,11,Stress test failed
+69069,2014-05-11 00:00:00,350,Fork Crown,FC-3654,37,1,0.0270,11,Stress test failed
+69156,2014-05-12 00:00:00,3,BB Ball Bearing,BE-2349,320,9,0.0281,9,Primer process failed
+69167,2014-05-12 00:00:00,532,Seat Stays,SS-2985,128,3,0.0234,11,Stress test failed
+69173,2014-05-12 00:00:00,316,Blade,BL-2036,64,2,0.0313,12,Thermoform temperature too high
+69265,2014-05-13 00:00:00,324,Chain Stays,CS-2812,88,1,0.0114,11,Stress test failed
+69276,2014-05-13 00:00:00,533,Seat Tube,ST-9828,44,1,0.0227,13,Thermoform temperature too low
+69334,2014-05-14 00:00:00,905,"ML Mountain Frame-W - Silver, 42",FR-M63S-42,59,1,0.0169,6,Drill size too small
+69391,2014-05-20 00:00:00,998,"Road-750 Black, 48",BK-R19B-48,98,1,0.0102,15,Trim length too short
+69418,2014-05-20 00:00:00,811,LL Road Handlebars,HB-R504,255,7,0.0275,3,Gouge in metal
+69427,2014-05-20 00:00:00,822,"ML Road Frame-W - Yellow, 38",FR-R72Y-38,58,1,0.0172,4,Drill pattern incorrect
+69435,2014-05-14 00:00:00,834,"ML Road Frame-W - Yellow, 42",FR-R72Y-42,100,2,0.0200,6,Drill size too small
+69474,2014-05-20 00:00:00,945,Front Derailleur,FD-2342,3161,60,0.0190,12,Thermoform temperature too high
+69490,2014-05-14 00:00:00,399,Head Tube,HT-8019,4387,109,0.0248,15,Trim length too short
+69497,2014-05-20 00:00:00,802,LL Fork,FK-1639,1581,42,0.0266,16,Wheel misaligned
+69908,2014-05-18 00:00:00,401,HL Hub,HU-8998,62,1,0.0161,2,Color incorrect
+70021,2014-05-19 00:00:00,398,Handlebar Tube,HT-2981,51,1,0.0196,4,Drill pattern incorrect
+70115,2014-06-01 00:00:00,894,Rear Derailleur,RD-2308,50,1,0.0200,3,Gouge in metal
+70132,2014-05-20 00:00:00,327,Down Tube,DT-2377,50,1,0.0200,5,Drill size too large
+70140,2014-05-20 00:00:00,529,Stem,SM-9087,50,1,0.0200,6,Drill size too small
+70148,2014-05-20 00:00:00,331,Fork End,FE-3760,100,3,0.0300,8,Paint process failed
+70149,2014-05-20 00:00:00,350,Fork Crown,FC-3654,50,1,0.0200,8,Paint process failed
+70569,2014-05-24 00:00:00,400,LL Hub,HU-6280,40,1,0.0250,11,Stress test failed
+70869,2014-05-28 00:00:00,950,ML Crankset,CS-6583,50,1,0.0200,11,Stress test failed
+70875,2014-05-27 00:00:00,324,Chain Stays,CS-2812,118,2,0.0169,12,Thermoform temperature too high
+70886,2014-05-27 00:00:00,533,Seat Tube,ST-9828,59,1,0.0169,14,Trim length too long
+71098,2014-05-29 00:00:00,401,HL Hub,HU-8998,58,1,0.0172,16,Wheel misaligned
+71208,2014-05-30 00:00:00,401,HL Hub,HU-8998,58,1,0.0172,2,Color incorrect
+71328,2014-05-31 00:00:00,531,Steerer,SR-2098,37,1,0.0270,5,Drill size too large
+71422,2014-06-01 00:00:00,327,Down Tube,DT-2377,44,1,0.0227,4,Drill pattern incorrect
+71430,2014-06-01 00:00:00,529,Stem,SM-9087,44,1,0.0227,5,Drill size too large
+71438,2014-06-01 00:00:00,331,Fork End,FE-3760,88,2,0.0227,6,Drill size too small
+71439,2014-06-01 00:00:00,350,Fork Crown,FC-3654,44,1,0.0227,6,Drill size too small
+71655,2014-06-03 00:00:00,534,Top Tube,TO-2301,50,1,0.0200,9,Primer process failed
+71836,2014-06-05 00:00:00,3,BB Ball Bearing,BE-2349,310,9,0.0290,6,Drill size too small
+71847,2014-06-05 00:00:00,532,Seat Stays,SS-2985,124,3,0.0242,8,Paint process failed
+71853,2014-06-05 00:00:00,316,Blade,BL-2036,62,2,0.0323,9,Primer process failed
+72050,2014-06-07 00:00:00,399,Head Tube,HT-8019,42,1,0.0238,8,Paint process failed
+72158,2014-06-08 00:00:00,401,HL Hub,HU-8998,60,1,0.0167,10,Seat assembly not as ordered
+72256,2014-06-09 00:00:00,3,BB Ball Bearing,BE-2349,370,11,0.0297,9,Primer process failed
+72267,2014-06-09 00:00:00,532,Seat Stays,SS-2985,148,3,0.0203,11,Stress test failed
+72273,2014-06-09 00:00:00,316,Blade,BL-2036,74,2,0.0270,12,Thermoform temperature too high
+72323,2014-06-11 00:00:00,806,ML Headset,HS-2451,34,1,0.0294,4,Drill pattern incorrect
+72366,2014-06-10 00:00:00,3,BB Ball Bearing,BE-2349,470,14,0.0298,11,Stress test failed
+72370,2014-06-10 00:00:00,329,Road End Caps,EC-R098,48,1,0.0208,12,Thermoform temperature too high
+72377,2014-06-10 00:00:00,532,Seat Stays,SS-2985,188,5,0.0266,13,Thermoform temperature too low
+72383,2014-06-10 00:00:00,316,Blade,BL-2036,94,3,0.0319,14,Trim length too long
