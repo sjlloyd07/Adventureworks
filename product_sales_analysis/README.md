@@ -16,11 +16,12 @@ In the early stages of forming their sales strategy for the year 2014, the sales
 
 
 ## Project Overview
-<!-- TODO -->
+
 The data team is tasked with producing a product sales analysis that focuses on the top selling products and product categories for the year 2013 and comparing their sales performance to the previous year.  
 
+
 #### Project Objectives
-<!-- TODO -->
+
 * Highlight the top 5 best selling products by total sales for the year 2013 and calculate the YoY sales growth from the previous year for each product.
 * Identify the products with the largest positive and negative YoY percentage growth for 2012/2013.
 * Identify the product category with the highest total sales in 2013.
@@ -40,18 +41,27 @@ The data team is tasked with producing a product sales analysis that focuses on 
 
 <br>
 
+
 ## Data details / structure  <!-- ERD diagram to show understanding of data structure -->
 
 In order to aggregate individual product sales metrics, the granularity is the sales order line item. This contains details that include the sales date, product name, product category, quantity, sales amount, and customer type.
 
+<!-- TODO: Add ERD visual aid -->
 
 
 
-
+<br>
 
 ## Executive Summary
+<!-- TODO -->
 narrative summary of key findings
 
+<br>
+
 ## Key Insights
+<!-- TODO -->
+
+<br>
 
 ## Recommendations
+<!-- TODO -->
