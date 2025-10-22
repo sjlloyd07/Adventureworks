@@ -9,7 +9,7 @@ product_sale(line item id, sale order id, product id, customer id, order date, q
 
 product(product id, name, category)
 
-cusomter(customer id, location)
+customer(customer id, location)
 
 
 '''
@@ -32,7 +32,7 @@ CREATE SCHEMA IF NOT EXISTS product_sales;
 ---------------------------------------------------------
 -- Fact table: f_sales
 ---------------------------------------------------------
----- Determine what columns to get from datebase. Retrieve table descriptions.
+---- Determine what columns to get from database. Retrieve table descriptions.
 
 -- Table: sales.salesorderdetail (Individual products associated with a specific sales order. See SalesOrderHeader.)
 -- Relevant Columns: salesorderid, salesorderdetailid, orderqty, productid, unitprice
@@ -128,6 +128,7 @@ ADD CONSTRAINT pk_saleid PRIMARY KEY (lineitem_id);
 
 
 -- **********************************************************************************************************************************************	
+---- Deprecated
 -- **********************************************************************************************************************************************	
 ---------------------------------------------------------
 -- Dim table: customers
@@ -191,7 +192,7 @@ WHERE p.persontype = 'IN'
 
 
 ---------------------------------------------------------
--- Dim table: dim_products
+-- Dim table: d_products
 ---------------------------------------------------------
 -- Product information to include: 
 ---- product_id, description, product_number, category, subcategory, model, line (cost & list_price are out of scope)
@@ -258,7 +259,7 @@ ADD CONSTRAINT pk_productid PRIMARY KEY (product_id);
 
 
 ---------------------------------------------------------
--- Dim table: dim_territory
+-- Dim table: d_territory
 ---------------------------------------------------------
 
 -- Table: sales.salesterritory (Sales territory lookup table.)
@@ -281,7 +282,7 @@ ADD CONSTRAINT pk_territoryid PRIMARY KEY (territory_id);
 
 
 ---------------------------------------------------------
--- Dim table: dim_dates
+-- Dim table: d_date
 ---------------------------------------------------------
 DROP TABLE IF EXISTS product_sales.d_date;
 CREATE TABLE IF NOT EXISTS product_sales.d_date AS 
