@@ -1,7 +1,8 @@
 # gitignore data dir
 
-data/
+/data/
 
 
 # gitignore files
+
 
