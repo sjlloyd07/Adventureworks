@@ -1,3 +1,3 @@
 # AdventureWorks Parent Repo
 
-Includes AdventureWorks data and analysis project repos.
+Includes AdventureWorks data and analysis projects repos.
