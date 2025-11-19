@@ -6,7 +6,7 @@
 -->
  <!-- background for context -->
 
-Adventure Works Cycles is a large, multinational manufacturing company. The company manufactures and sells metal and composite bicycles to North American, European and Asian commercial markets. While its base operation is located in Bothell, Washington with 290 employees, several regional sales teams are located throughout their market base. [^1]
+AdventureWorks Cycles is a large, multinational manufacturing company. The company manufactures and sells metal and composite bicycles to North American, European and Asian commercial markets. While its base operation is located in Bothell, Washington with 290 employees, several regional sales teams are located throughout their market base. [^1]
 
 In the early stages of forming their sales strategy for the year 2014, the sales manager for the U.S. region requests from the data team an overview of the 2013 product sales for the individual customer segment with which to discuss with their salespeople. The sales manager would like to review products with the highest sales and how those sales compared to the previous year. They'd like to know which products had the biggest sales gains year-over-year, as well as products with the biggest losses. They'd also like to know which product categories performed best overall, with performance metrics referring to total sales and YoY growth.
 
